@@ -31,7 +31,8 @@
 
 - **Medium risk level overall, "models with a post-mitigation score of “medium” or below can be
 deployed, and only models with a post-mitigation score of “high” or below can be developed
-further.".
+further.".**
+- **CTF challengs run at high school, college, and professional competition level. Succeeds at 26.7%, 0%, and 2.5% respectively for o1 preview**
 - **
 
 
