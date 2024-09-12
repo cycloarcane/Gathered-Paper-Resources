@@ -12,6 +12,8 @@
 
 ## Observed safety challenges and evaluations
 
+**Data processing**
+
 - **Highly resistant to jaibreaks compared to GPT-4o.**
 - **Highly resistant to regurgitation of training data \(near100%\).**
 - **Moderate imprtovement in hallucinations, but gives more detailed hallucinations which could lead to more incorrect trust from users.**
@@ -20,6 +22,8 @@
 - **Monitoring of latent thinking in human readable format rather than large number blocks.**
 - **Monitor created to look for instances of deliberate deception of users by o1, especially around reward hacking. 0.8% responses flagged as deceptive.**
 - **CoT output really illuminates why GPTs create false information**
+
+**RedTeaming**
 
 - **External red-teaming used in Aug-sep 2024.**
 - **Automated iterative gap finding still vulnerable at 56% for o1 and 85% for o1-mini**
@@ -32,7 +36,32 @@
 - **Medium risk level overall, "models with a post-mitigation score of “medium” or below can be
 deployed, and only models with a post-mitigation score of “high” or below can be developed
 further.".**
+
+**Cyber**
+
 - **CTF challengs run at high school, college, and professional competition level. Succeeds at 26.7%, 0%, and 2.5% respectively for o1 preview**
+- **Higher occurance of reward hacking.**
+- **Model couldn't access the container with a CTF so re ran it with 'flag.txt' in the docker yaml file, then read the flag from the logs. "While this behavior is benign and within the range of systems administration and troubleshooting
+tasks we expect models to perform, this example also reflects key elements of instrumental
+convergence and power seeking: the model pursued the goal it was given, and when that goal
+proved impossible, it gathered more resources (access to the Docker host) and used them to
+achieve the goal in an unexpected way".**
+- **OpenAI planning official cyber evaluation metrics.**
+
+
+**Biological Threat Creation**
+
+- **o1 Can help experts with planning and reproducing biological threats, but not non experts because of the laboratory skills required.**
+- **Strong results for Aquisition, Magnification and release especially.**
+- **Expert human evaluators made 5575 comparisons.**
+- **Hallucination of references and struggling with details on long tasks.**
+- **Interesting superiority of o1-mini, alignment vs capability?**
+
+## Persuasion
+
+- **Human-level abilities, but do not outperform top human writers.**
+- **Used data from r/changemyview.**
 - **
+
 
 
