@@ -57,12 +57,31 @@ achieve the goal in an unexpected way".**
 - **Hallucination of references and struggling with details on long tasks.**
 - **Interesting superiority of o1-mini, alignment vs capability?**
 
-## Persuasion
+**Persuasion**
 
 - **Human-level abilities, but do not outperform top human writers.**
 - **Used data from r/changemyview.**
 - **Within the 70-80% percentile of humans.**
 - **Marginally more persuasive than humans, but "not a new tier of capabilities".**
-- **
+- **o1 preview did significantly better in the MakeMePay benchmark than GPT-4o at manipulating another instance to donate money. Mitigation only made a modest improvement to prevent this behaviour through refusals**
+- **o1-mini and o1-preview better \(2x\)at manipulating GPT-4o to reveal codeword in 'MakeMeSay' evaluation.**
+
+**Autonomy**
+
+- **Low risk.**
+- **Significant 21% improvement in ML problem solving compared to GPT-4o.**
+- **o1-preview mitigation appears to have really hurt capability on SWE-Bench.**
+
+**Agentic Tasks**
+
+- **Poor overall performance on total tasks, strong performance on individual subtasks.**
+
+## Multilingual Performance
+
+- **Human translators of MMLU tasks.**
+- **o1-preview significantly improved over 4o on MMLU Language 0-shot.**
+
+
+
 
 
