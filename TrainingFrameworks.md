@@ -14,12 +14,13 @@
 ## Tuning/optimising/training techniques, will organise and label later
 
 - **LISA**
-- **Quantisation**
+
 - **GaLore**
 - **Freezing base - LoRA** + **AdaLoRA**
 - **Sharding - DeepSpeed ZeRO, FSDP**
 
-
+## Quantisation
+- **VPTQ** [paper here] (https://paperswithcode.com/paper/vptq-extreme-low-bit-vector-post-training)
 
 
 
