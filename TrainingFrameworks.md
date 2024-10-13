@@ -21,6 +21,6 @@
 
 ## Quantisation
 - **VPTQ** [paper here] (https://paperswithcode.com/paper/vptq-extreme-low-bit-vector-post-training)
-
+- **PrefixQuant** [paper here](https://paperswithcode.com/paper/prefixquant-static-quantization-beats-dynamic)
 
 
