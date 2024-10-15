@@ -8,7 +8,7 @@
 
 ## Service-to-local 
 
-- **LLMOps** [Paper here](https://paperswithcode.com/paper/llamaduo-llmops-pipeline-for-seamless)
+- **LLMOps** [paper](https://paperswithcode.com/paper/llamaduo-llmops-pipeline-for-seamless)
 
 
 ## Tuning/optimising/training techniques, will organise and label later

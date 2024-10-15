@@ -9,7 +9,7 @@
 
 ## Multimodal
 
-- **Aria** [paper here](https://paperswithcode.com/paper/aria-an-open-multimodal-native-mixture-of)
+- **Aria** [paper](https://paperswithcode.com/paper/aria-an-open-multimodal-native-mixture-of)
 
 ## Deepfake Detection
 
