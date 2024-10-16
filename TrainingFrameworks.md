@@ -18,6 +18,7 @@
 - **GaLore**
 - **Freezing base - LoRA** + **AdaLoRA**
 - **Sharding - DeepSpeed ZeRO, FSDP**
+- **Liger-Kernel** [paper](https://paperswithcode.com/paper/liger-kernel-efficient-triton-kernels-for-llm) 
 
 ## Quantisation
 - **VPTQ** [paper here] (https://paperswithcode.com/paper/vptq-extreme-low-bit-vector-post-training)
