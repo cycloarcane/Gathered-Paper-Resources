@@ -14,3 +14,7 @@
 ## Deepfake Detection
 
 - **Capture Artifacts via Progressive Disentangling and Purifying Blended Identities for Deepfake Detection** [paper](https://paperswithcode.com/paper/capture-artifacts-via-progressive) 
+
+## Linearisation
+
+- **LoLCATs** [paper](https://paperswithcode.com/paper/lolcats-on-low-rank-linearizing-of-large)
