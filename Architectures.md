@@ -18,3 +18,7 @@
 ## Linearisation
 
 - **LoLCATs** [paper](https://paperswithcode.com/paper/lolcats-on-low-rank-linearizing-of-large)
+
+## Anomaly detection
+
+- **AnomalyNCD** [paper](https://paperswithcode.com/paper/anomalyncd-towards-novel-anomaly-class)
