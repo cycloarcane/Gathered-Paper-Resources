@@ -25,3 +25,6 @@
 - **PrefixQuant** [paper here](https://paperswithcode.com/paper/prefixquant-static-quantization-beats-dynamic)
 
 
+## GUI
+
+- **Huggingface - AutoTrain** [paper](https://paperswithcode.com/paper/autotrain-no-code-training-for-state-of-the)
