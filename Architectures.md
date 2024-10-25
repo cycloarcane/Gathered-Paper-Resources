@@ -5,8 +5,6 @@
 
 - **Kolmogorov-Arnold Transformers** [paper](https://paperswithcode.com/paper/kolmogorov-arnold-transformer)
 
-## LLMs
-
 ## Multimodal
 
 - **Aria** [paper](https://paperswithcode.com/paper/aria-an-open-multimodal-native-mixture-of)
@@ -22,3 +20,8 @@
 ## Anomaly detection
 
 - **AnomalyNCD** [paper](https://paperswithcode.com/paper/anomalyncd-towards-novel-anomaly-class)
+
+
+## Bayesian Optimisation 
+
+- **Hot-DoG** [paper](https://paperswithcode.com/paper/tuning-free-coreset-markov-chain-monte-carlo)
