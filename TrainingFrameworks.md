@@ -28,3 +28,7 @@
 ## GUI
 
 - **Huggingface - AutoTrain** [paper](https://paperswithcode.com/paper/autotrain-no-code-training-for-state-of-the)
+
+## Hallucination Reduction
+
+- **Prereq-Tune**[paper](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)
