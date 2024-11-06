@@ -39,6 +39,9 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #detection #monitoring #AI  
     **Summary**: LLMSCAN introduces a causal scanning method to detect misbehavior in large language models, enhancing AI system reliability.
 
+- **From Imitation to Introspection: Probing Self-Consciousness in Language Models** [paper](https://paperswithcode.com/paper/from-imitation-to-introspection-probing-self)
+    **Tags**: #self-consciousness #AI-philosophy #introspection #detection
+    **Summary**: This paper explores the emergence of self-consciousness in language models, transitioning from mere imitation to introspective capabilities. It examines the extent to which these models can exhibit self-referential behaviors, delving into the philosophical implications of AI's evolving cognitive functions.
 ---
 
 ## 4. AI Architectures & Models
@@ -141,3 +144,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.
 
 
+---
+
+## 15. Energy Use, Environmental Impact of AI
+
+- **The carbon emissions of writing and illustrating are lower for AI than for humans** [paper](https://www.nature.com/articles/s41598-024-54271-x.pdf)
+    **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
+    **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks, highlighting their potential environmental benefits in content creation processes.
