@@ -104,6 +104,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #RAG #retrieval #AI  
     **Summary**: MemoRAG explores advanced techniques in retrieval-augmented generation for more effective information synthesis in AI systems.
 
+- **KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation** [paper](https://paperswithcode.com/paper/2409-13731)
+    **Tags**: #KAG #knowledge-augmentation #professional-domains #AI
+    **Summary**: This paper explores Knowledge Augmented Generation (KAG) as a method to enhance large language models (LLMs) for specific professional domains, focusing on the integration of domain-specific knowledge to improve accuracy and relevance in outputs.
+
 ---
 
 ## 11. Security Frameworks & Adversarial Toolkits
