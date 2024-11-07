@@ -87,7 +87,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #speech #audio #AI-models  
     **Summary**: LLaMA-Omni offers seamless speech interaction with large language models, enhancing real-time communication capabilities.
 
-- **Moonshine: Speech Recognition for Live Transcription and Voice Commands** [paper] (https://paperswithcode.com/paper/moonshine-speech-recognition-for-live)
+- **Moonshine: Speech Recognition for Live Transcription and Voice Commands** [paper](https://paperswithcode.com/paper/moonshine-speech-recognition-for-live)
     **Tags**: #speech-recognition #live-transcription #voice-commands #AI
     **Summary**: This paper introduces Moonshine, a family of speech recognition models optimized for live transcription and voice command processing. Moonshine is based on an encoder-decoder transformer architecture and employs Rotary Position Embedding (RoPE) instead of traditional absolute position embeddings. The model is trained on speech segments of various lengths, but without using zero-padding, leading to greater efficiency for the encoder during inference time.
 
@@ -148,7 +148,8 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 ---
 
 ## 14. Hallucination Reduction & Factuality
-- **Prereq-Tune** [paper](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)  
+- **Prereq-Tune** [paper](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)
+
     **Tags**: #hallucination #factuality #AI  
     **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.
 
@@ -158,6 +159,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 ## 15. Energy Use, Environmental Impact of AI
 
 - **The carbon emissions of writing and illustrating are lower for AI than for humans** [paper](https://www.nature.com/articles/s41598-024-54271-x.pdf)
+
     **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
     **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks, highlighting their potential environmental benefits in content creation processes.
 
@@ -166,6 +168,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 ## 16. Image Animation
 
-- **Hallo2: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)
+- **Hallo2**: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)
+
     **Tags**: #image-animation #audio-driven #high-resolution #long-duration
     **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames. Notably, Hallo2 achieves 4K resolution video generation and incorporates adjustable semantic textual labels for portrait expressions, enhancing controllability and content diversity. Extensive experiments demonstrate state-of-the-art performance in producing rich, controllable content at 4K resolution for durations extending up to tens of minutes.
