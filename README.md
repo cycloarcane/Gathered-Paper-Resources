@@ -158,8 +158,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 ## 15. Energy Use, Environmental Impact of AI
 
-- **The carbon emissions of writing and illustrating are lower for AI than for humans** [paper](https://www.nature.com/articles/s41598-024-54271-x.pdf)
-
+- **The carbon emissions of writing and illustrating are lower for AI than for humans** [paper](https://www.nature.com/articles/s41598-024-54271-x.pdf)  
     **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
     **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks, highlighting their potential environmental benefits in content creation processes.
 
@@ -168,7 +167,6 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 ## 16. Image Animation
 
-- **Hallo2**: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)
-
+- **Hallo2**: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)  
     **Tags**: #image-animation #audio-driven #high-resolution #long-duration
     **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames. Notably, Hallo2 achieves 4K resolution video generation and incorporates adjustable semantic textual labels for portrait expressions, enhancing controllability and content diversity. Extensive experiments demonstrate state-of-the-art performance in producing rich, controllable content at 4K resolution for durations extending up to tens of minutes.
