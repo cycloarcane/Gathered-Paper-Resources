@@ -82,6 +82,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #speech #audio #AI-models  
     **Summary**: LLaMA-Omni offers seamless speech interaction with large language models, enhancing real-time communication capabilities.
 
+- **Moonshine: Speech Recognition for Live Transcription and Voice Commands** [paper] (https://paperswithcode.com/paper/moonshine-speech-recognition-for-live)
+    **Tags**: #speech-recognition #live-transcription #voice-commands #AI
+    **Summary**: This paper introduces Moonshine, a family of speech recognition models optimized for live transcription and voice command processing. Moonshine is based on an encoder-decoder transformer architecture and employs Rotary Position Embedding (RoPE) instead of traditional absolute position embeddings. The model is trained on speech segments of various lengths, but without using zero-padding, leading to greater efficiency for the encoder during inference time.
+
 ---
 
 ## 8. CUDA & Computing Basics
