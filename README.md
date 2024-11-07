@@ -53,6 +53,11 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #architecture #multimodal #AI  
     **Summary**: Aria is an open multimodal-native mixture of experts model designed to handle diverse data types, enhancing AI's multimodal processing capabilities.
 
+- **Hunyuan-Large**: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent
+    **Tags**: #MoE #transformer #open-source #AI
+    **Summary**: In this paper, we introduce Hunyuan-Large, which is currently the largest open-source Transformer-based mixture of experts model, with a total of 389 billion parameters and 52 billion activation parameters, capable of handling up to 256K tokens. We conduct a thorough evaluation of Hunyuan-Large's superior performance across various benchmarks including language understanding and generation tasks.
+
+
 ---
 
 ## 5. Deepfake & Anomaly Detection
