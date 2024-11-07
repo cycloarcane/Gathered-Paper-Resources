@@ -148,8 +148,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 ---
 
 ## 14. Hallucination Reduction & Factuality
-- **Prereq-Tune** [paper](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)
-
+- **Prereq-Tune** [paper](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)  
     **Tags**: #hallucination #factuality #AI  
     **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.
 
