@@ -53,9 +53,9 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #architecture #multimodal #AI  
     **Summary**: Aria is an open multimodal-native mixture of experts model designed to handle diverse data types, enhancing AI's multimodal processing capabilities.
 
-- **Hunyuan-Large**: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent
+- **Hunyuan-Large**: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent [paper](https://paperswithcode.com/paper/hunyuan-large-an-open-source-moe-model-with)
     **Tags**: #MoE #transformer #open-source #AI
-    **Summary**: In this paper, we introduce Hunyuan-Large, which is currently the largest open-source Transformer-based mixture of experts model, with a total of 389 billion parameters and 52 billion activation parameters, capable of handling up to 256K tokens. We conduct a thorough evaluation of Hunyuan-Large's superior performance across various benchmarks including language understanding and generation tasks.
+    **Summary**: This paper introduces Hunyuan-Large, the largest open-source Transformer-based mixture of experts model, featuring a total of 389 billion parameters with 52 billion activated parameters and the ability to handle up to 256K tokens. Hunyuan-Large demonstrates superior performance in various benchmarks, including language understanding and generation, logical reasoning, and coding tasks, surpassing smaller models while maintaining competitive performance against much larger counterparts like LLama3.1-405B. The model benefits from large-scale synthetic data, a mixed expert routing strategy, key-value cache compression, and expert-specific learning rates, with the authors also discussing scaling laws and learning rate schedules for mixture of experts models.
 
 
 ---
@@ -160,3 +160,12 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 - **The carbon emissions of writing and illustrating are lower for AI than for humans** [paper](https://www.nature.com/articles/s41598-024-54271-x.pdf)
     **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
     **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks, highlighting their potential environmental benefits in content creation processes.
+
+
+---
+
+## 16. Image Animation
+
+- **Hallo2: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)
+    **Tags**: #image-animation #audio-driven #high-resolution #long-duration
+    **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames. Notably, Hallo2 achieves 4K resolution video generation and incorporates adjustable semantic textual labels for portrait expressions, enhancing controllability and content diversity. Extensive experiments demonstrate state-of-the-art performance in producing rich, controllable content at 4K resolution for durations extending up to tens of minutes.
