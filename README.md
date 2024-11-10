@@ -189,4 +189,4 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 - **Docling Technical Report** [paper](https://paperswithcode.com/paper/docling-technical-report)  
     - **Tags**: #document-conversion #PDF #open-source #AI
-    - **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements. Its user-friendly code interface supports easy extensibility, facilitating the integration of new features and models.
+    - **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements. Its user-friendly code interface supports easy extensibility, facilitating the integration of new features and models. 
