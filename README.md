@@ -61,7 +61,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 - **LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs** [paper](https://paperswithcode.com/paper/longwriter-unleashing-10000-word-generation)  
     **Tags**: #long-context #LLM #text-generation #AI
     **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that, despite processing inputs up to 100,000 tokens, struggle to generate outputs exceeding 2,000 words. The authors identify that this constraint stems from the scarcity of long-output examples in existing supervised fine-tuning (SFT) datasets. To overcome this, they introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words. Leveraging AgentWrite, they construct LongWriter-6k, a dataset containing 6,000 SFT data with output lengths ranging from 2,000 to 32,000 words. Incorporating this dataset into model training allows scaling the output length of existing models to over 10,000 words while maintaining quality. Additionally, they develop LongBench-Write, a comprehensive benchmark for evaluating ultra-long generation capabilities. Their 9B parameter model, further improved through Direct Preference Optimization (DPO), achieves state-of-the-art performance on this benchmark, surpassing even larger proprietary models. The work demonstrates that existing long-context LLMs possess the potential for larger output windows, unlocked through alignment with extended output data.
-arXiv
+
+- **TableGPT2: A Large Multimodal Model with Tabular Data Integration** [paper](https://paperswithcode.com/paper/tablegpt2-a-large-multimodal-model-with)  
+    - **Tags**: #multimodal-model #tabular-data #AI
+    - **Summary**: TableGPT2 is a large-scale multimodal model specifically designed to integrate tabular data into AI applications. Trained on over 593,800 tables and 2.36 million high-quality query-table-output tuples, it excels in table-centric tasks while maintaining robust general language and coding capabilities. Notably, TableGPT2 achieves an average performance improvement of 35.20% in the 7B model and 49.32% in the 72B model over prior benchmark-neutral LLMs across 23 benchmarking metrics, demonstrating its effectiveness in handling structured data.
 
 
 - **R-CoT: Reverse Chain-of-Thought Problem Generation for Geometric Reasoning in Large Multimodal Models** [paper](https://paperswithcode.com/paper/r-cot-reverse-chain-of-thought-problem)  
@@ -179,3 +182,11 @@ arXiv
 - **Hallo2**: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation** [paper](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)  
     **Tags**: #image-animation #audio-driven #high-resolution #long-duration
     **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames. Notably, Hallo2 achieves 4K resolution video generation and incorporates adjustable semantic textual labels for portrait expressions, enhancing controllability and content diversity. Extensive experiments demonstrate state-of-the-art performance in producing rich, controllable content at 4K resolution for durations extending up to tens of minutes.
+
+---
+
+## 17. Document Processing Tools
+
+- **Docling Technical Report** [paper](https://paperswithcode.com/paper/docling-technical-report)  
+    - **Tags**: #document-conversion #PDF #open-source #AI
+    - **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements. Its user-friendly code interface supports easy extensibility, facilitating the integration of new features and models.
