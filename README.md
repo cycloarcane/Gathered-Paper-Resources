@@ -205,5 +205,12 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 ### IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery  
 **Paper**: [Link](https://arxiv.org/abs/2411.05442)
-**Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
 **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats. It provides tailored responses, serving as a central hub for cybersecurity insights. Performance evaluations indicate high accuracy, with BERT scores above 0.8 and cosine similarity scores ranging from 0.8 to 1.
+**Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
+
+## 19. Miscellaneous Interesting
+
+### Analysing the Cultural Dimensions of Cybercriminal Groups: A Case Study on the Conti Ransomware Group
+**Paper**: [Link](https://arxiv.org/abs/2411.02548)
+**Summary**: This study explores the cultural aspects of cybercriminal organizations, focusing on the Conti ransomware group. By analyzing leaked internal communications, the authors apply Hofstede's and Meyer's cultural dimension frameworks to understand the group's operational behaviors. The findings suggest that cultural analysis can enhance cyber threat intelligence and attribution processes, offering deeper insights into the modus operandi of such groups.
+**Tags**: #cybersecurity #cultural-analysis #threat-intelligence #ransomware
