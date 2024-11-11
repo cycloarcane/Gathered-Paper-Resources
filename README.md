@@ -200,3 +200,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Paper**: [Link](https://paperswithcode.com/paper/docling-technical-report)  
 **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements.  
 **Tags**: #document-conversion #PDF #open-source #AI
+
+## 18. Cybersecurity Assistants
+
+### IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery  
+**Paper**: [Link](https://arxiv.org/abs/2411.05442)
+**Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
+**Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats. It provides tailored responses, serving as a central hub for cybersecurity insights. Performance evaluations indicate high accuracy, with BERT scores above 0.8 and cosine similarity scores ranging from 0.8 to 1.
