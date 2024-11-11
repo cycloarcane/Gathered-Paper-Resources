@@ -155,6 +155,11 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper introduces a method to detect adversarial attacks on AI models by leveraging neural fingerprints. The approach involves creating unique identifiers for neural networks, enabling the identification of unauthorized modifications or attacks.  
 **Tags**: #adversarial-attack #detection #neural-fingerprints #AI
 
+### Trustworthy Federated Learning: Privacy, Security, and Beyond
+**Paper**: [Link](https://arxiv.org/abs/2411.01583)
+**Summary**: This comprehensive survey examines the security and privacy challenges inherent in Federated Learning (FL). It highlights vulnerabilities in communication channels and potential cyber threats within decentralized networks. The authors discuss various defensive strategies to mitigate these risks, explore FL applications across different sectors, and propose future research directions to enhance the security and efficiency of FL systems.
+**Tag**s: #federated-learning #privacy #security #decentralized-networks
+
 ## 12. Open-Source Projects & Infrastructure
 
 ### LLaMA-Factory
