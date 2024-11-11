@@ -140,6 +140,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
     **Tags**: #security #pytorch #AI  
     **Summary**: AdvSecureNet provides a Python toolkit for adversarial attack simulation in PyTorch, designed to test and improve AI robustness.
 
+- **Neural Fingerprints for Adversarial Attack Detection**[paper](https://paperswithcode.com/paper/neural-fingerprints-for-adversarial-attack)  
+    - **Tags**: #adversarial-attack #detection #neural-fingerprints #AI
+    - **Summary**: This paper introduces a method to detect adversarial attacks on AI models by leveraging neural fingerprints. The approach involves creating unique identifiers for neural networks, enabling the identification of unauthorized modifications or attacks, thereby enhancing the security and integrity of AI systems.
+
 ---
 
 ## 12. Open-Source Projects & Infrastructure
