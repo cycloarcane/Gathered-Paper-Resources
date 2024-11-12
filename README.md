@@ -46,7 +46,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Tags**: #self-consciousness #AI-philosophy #introspection #detection
 
 ### PARIS: A Practical, Adaptive Trace-Fetching and Real-Time Malicious Behavior Detection System   
-**Paper**: [Link](https://arxiv.org/abs/2411.01273)
+**Paper**: [Link](https://arxiv.org/abs/2411.01273)   
 **Summary**: This paper introduces PARIS, a system designed for real-time detection of malicious behaviors on Windows platforms. Utilizing Event Tracing for Windows (ETW), PARIS adaptively monitors and collects data related to potentially malicious API calls and call stacks, significantly reducing data collection overhead. This efficiency enables the system to monitor a broader range of APIs, enhancing its ability to detect complex attack behaviors. Evaluations demonstrate that PARIS reduces data collection by over 98.8% compared to raw ETW traces, while maintaining detection accuracy comparable to existing methods that incur higher overhead.
 **Tags**: #malware-detection #real-time-monitoring #ETW #cybersecurity
 
