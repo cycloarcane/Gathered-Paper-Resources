@@ -45,6 +45,12 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper explores the emergence of self-consciousness in language models, transitioning from mere imitation to introspective capabilities. It examines the extent to which these models can exhibit self-referential behaviors, delving into the philosophical implications of AI's evolving cognitive functions.  
 **Tags**: #self-consciousness #AI-philosophy #introspection #detection
 
+### PARIS: A Practical, Adaptive Trace-Fetching and Real-Time Malicious Behavior Detection System   
+**Paper**: [Link](https://arxiv.org/abs/2411.01273)
+**Summary**: This paper introduces PARIS, a system designed for real-time detection of malicious behaviors on Windows platforms. Utilizing Event Tracing for Windows (ETW), PARIS adaptively monitors and collects data related to potentially malicious API calls and call stacks, significantly reducing data collection overhead. This efficiency enables the system to monitor a broader range of APIs, enhancing its ability to detect complex attack behaviors. Evaluations demonstrate that PARIS reduces data collection by over 98.8% compared to raw ETW traces, while maintaining detection accuracy comparable to existing methods that incur higher overhead.
+**Tags**: #malware-detection #real-time-monitoring #ETW #cybersecurity
+
+
 ## 4. AI Architectures & Models
 
 ### Kolmogorov-Arnold Transformers
@@ -208,7 +214,7 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 
 ## 18. Cybersecurity Assistants
 
-### IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery  
+### IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery
 **Paper**: [Link](https://arxiv.org/abs/2411.05442)
 **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats. It provides tailored responses, serving as a central hub for cybersecurity insights. Performance evaluations indicate high accuracy, with BERT scores above 0.8 and cosine similarity scores ranging from 0.8 to 1.
 **Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
