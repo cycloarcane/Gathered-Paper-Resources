@@ -83,6 +83,13 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper introduces R-CoT, a two-stage Reverse Chain-of-Thought geometry problem generation pipeline designed to enhance the geometric reasoning capabilities of Large Multimodal Models (LMMs).  
 **Tags**: #R-CoT #geometric-reasoning #multimodal-models #AI
 
+### Breaking the Low-Rank Dilemma of Linear Attention   
+**Paper**: [Link](https://paperswithcode.com/paper/breaking-the-low-rank-dilemma-of-linear)  
+**Summary**: This paper addresses the computational inefficiencies of the Softmax attention mechanism in Transformer models, particularly its quadratic complexity in vision applications. It introduces Rank-Augmented Linear Attention (RALA), which enhances the rank of linear attention's feature map, enabling it to model complex spatial information more effectively. RALA maintains linear complexity while achieving performance comparable to Softmax attention. The authors also present the Rank-Augmented Vision Linear Transformer (RAVLT), which, without additional labels or supervision during training, achieves an 84.4% Top-1 accuracy on ImageNet-1k with only 26M parameters and 4.6G FLOPs, surpassing previous linear attention mechanisms.
+**Tags**: #linear-attention #transformer #vision-models #RALA #RAVLT
+
+
+
 ## 5. Deepfake & Anomaly Detection
 
 ### Capture Artifacts for Deepfake Detection
