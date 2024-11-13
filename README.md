@@ -242,6 +242,13 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper addresses the challenge of ensuring fairness in multi-document summarization, particularly when dealing with user-generated content from diverse social groups. The authors introduce two novel methods for fair extractive summarization: FairExtract, a clustering-based approach, and FairGPT, which leverages GPT-3.5-turbo with fairness constraints. Evaluations on the DivSumm dataset, comprising tweets from White-aligned, Hispanic, and African-American dialects, demonstrate that both methods achieve superior fairness while maintaining competitive summarization quality. The study also proposes composite metrics that integrate quality and fairness, offering a more nuanced evaluation framework.   
 **Tags**: #fairness #summarization #extractive-summarization #GPT-3.5
 
+### Mitigating Bias in Queer Representation within Large Language Models: A Collaborative Agent Approach   
+**Paper**: [Link](https://paperswithcode.com/paper/mitigating-bias-in-queer-representation)   
+**Summary**: This paper addresses biases in pronoun usage by large language models (LLMs), particularly the inappropriate application of gendered pronouns when inclusive language is necessary. The authors introduce a collaborative agent framework designed to detect and correct such biases, enhancing inclusivity in AI-generated content. Evaluations using the Tango dataset—a benchmark focused on gender pronoun usage—demonstrate a significant improvement in inclusive pronoun classification, with a 32.6 percentage point increase over GPT-4o in correctly identifying inappropriate gendered pronouns.   
+**Tags**: #bias-mitigation #queer-representation #LLM #inclusive-language
+
+
+
 
 
 ## 20. Miscellaneous Interesting
