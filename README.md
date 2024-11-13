@@ -230,9 +230,19 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats. It provides tailored responses, serving as a central hub for cybersecurity insights. Performance evaluations indicate high accuracy, with BERT scores above 0.8 and cosine similarity scores ranging from 0.8 to 1.
 **Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
 
-## 19. Miscellaneous Interesting
+## 19. Fairness in AI
+
+### Fair Summarization: Bridging Quality and Diversity in Extractive Summaries   
+**Paper**: [Link](https://paperswithcode.com/paper/fair-summarization-bridging-quality-and)   
+**Summary**: This paper addresses the challenge of ensuring fairness in multi-document summarization, particularly when dealing with user-generated content from diverse social groups. The authors introduce two novel methods for fair extractive summarization: FairExtract, a clustering-based approach, and FairGPT, which leverages GPT-3.5-turbo with fairness constraints. Evaluations on the DivSumm dataset, comprising tweets from White-aligned, Hispanic, and African-American dialects, demonstrate that both methods achieve superior fairness while maintaining competitive summarization quality. The study also proposes composite metrics that integrate quality and fairness, offering a more nuanced evaluation framework.   
+**Tags**: #fairness #summarization #extractive-summarization #GPT-3.5
+
+
+
+## 20. Miscellaneous Interesting
 
 ### Analysing the Cultural Dimensions of Cybercriminal Groups: A Case Study on the Conti Ransomware Group
 **Paper**: [Link](https://arxiv.org/abs/2411.02548)   
 **Summary**: This study explores the cultural aspects of cybercriminal organizations, focusing on the Conti ransomware group. By analyzing leaked internal communications, the authors apply Hofstede's and Meyer's cultural dimension frameworks to understand the group's operational behaviors. The findings suggest that cultural analysis can enhance cyber threat intelligence and attribution processes, offering deeper insights into the modus operandi of such groups.
 **Tags**: #cybersecurity #cultural-analysis #threat-intelligence #ransomware
+
