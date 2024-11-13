@@ -202,6 +202,11 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.  
 **Tags**: #hallucination #factuality #AI
 
+### DecoPrompt: Decoding Prompts Reduces Hallucinations when Large Language Models Meet False Premises   
+**Paper**: [Link](https://paperswithcode.com/paper/decoprompt-decoding-prompts-reduces)   
+**Summary**: DecoPrompt addresses the issue of hallucinations in large language models (LLMs) when confronted with false premises. The method leverages LLMs to "decode" misleading prompts without generating hallucinated outputs, effectively reducing inaccuracies. Experiments demonstrate DecoPrompt's efficacy across different LLMs and its cross-model transferability, making it applicable to various scenarios, including those involving large models or inaccessible model logits.   
+**Tags**: #hallucination-reduction #LLM #false-premises #AI
+
 ## 15. Energy Use, Environmental Impact of AI
 
 ### The carbon emissions of writing and illustrating
