@@ -88,6 +88,10 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper addresses the computational inefficiencies of the Softmax attention mechanism in Transformer models, particularly its quadratic complexity in vision applications. It introduces Rank-Augmented Linear Attention (RALA), which enhances the rank of linear attention's feature map, enabling it to model complex spatial information more effectively. RALA maintains linear complexity while achieving performance comparable to Softmax attention. The authors also present the Rank-Augmented Vision Linear Transformer (RAVLT), which, without additional labels or supervision during training, achieves an 84.4% Top-1 accuracy on ImageNet-1k with only 26M parameters and 4.6G FLOPs, surpassing previous linear attention mechanisms.
 **Tags**: #linear-attention #transformer #vision-models #RALA #RAVLT
 
+### LoLCATs: On Low-Rank Linearizing of Large Language Models   
+**Paper**: [Link](https://arxiv.org/abs/2410.10254)   
+**Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors. LoLCATs significantly improves the quality and scalability of linearized LLMs, achieving state-of-the-art performance with substantially reduced memory and computational requirements. Notably, it enables the creation of linearized models up to 405 billion parameters, marking a significant advancement in the field.
+**Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
 
 ## 5. Deepfake & Anomaly Detection
