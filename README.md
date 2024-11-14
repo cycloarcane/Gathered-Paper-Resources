@@ -14,6 +14,12 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: TaskGen presents a task-based, memory-infused agentic framework designed to improve AI's ability to manage and execute complex tasks efficiently.  
 **Tags**: #agent #task-management #AI
 
+### Reinforcement Learning for Quantum Tiq-Taq-Toe   
+**Paper**: [Link](https://paperswithcode.com/paper/reinforcement-learning-for-quantum-tiq-taq)   
+**Summary**: This paper explores the application of reinforcement learning (RL) to Quantum Tiq-Taq-Toe, a quantum variant of the classic Tic-Tac-Toe game. The study highlights the challenges in representing quantum games classically due to partial observability and exponential state complexity. In Quantum Tiq-Taq-Toe, states are observed through measurements and move history, with each move potentially collapsing the quantum state. The authors propose RL methods to navigate these complexities, aiming to serve as an accessible testbed for integrating quantum computing and machine learning.
+**Tags**: #reinforcement-learning #quantum-computing #game-theory #AI
+
+
 ## 2. Benchmarks & Testing
 
 ### OSWorld
