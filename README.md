@@ -19,6 +19,17 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper explores the application of reinforcement learning (RL) to Quantum Tiq-Taq-Toe, a quantum variant of the classic Tic-Tac-Toe game. The study highlights the challenges in representing quantum games classically due to partial observability and exponential state complexity. In Quantum Tiq-Taq-Toe, states are observed through measurements and move history, with each move potentially collapsing the quantum state. The authors propose RL methods to navigate these complexities, aiming to serve as an accessible testbed for integrating quantum computing and machine learning.
 **Tags**: #reinforcement-learning #quantum-computing #game-theory #AI
 
+### FinRobot: AI Agent for Equity Research and Valuation with Large Language Models   
+**Paper**: [Link](https://paperswithcode.com/paper/finrobot-ai-agent-for-equity-research-and)   
+**Summary**: FinRobot introduces an AI agent framework tailored for equity research, integrating both quantitative and qualitative analyses to emulate human analyst reasoning. It comprises three specialized agents:
+
+    Data-CoT Agent: Aggregates diverse data sources for robust financial integration.
+    Concept-CoT Agent: Mimics analyst reasoning to generate actionable insights.
+    Thesis-CoT Agent: Synthesizes insights into coherent investment theses and reports.
+
+FinRobot delivers comprehensive company analyses with precise numerical data, industry-specific valuation metrics, and realistic risk assessments. Its dynamically updatable data pipeline ensures timely and relevant research, adapting seamlessly to new financial information.   
+**Tags**: #AI-agent #equity-research #valuation #LLM   
+
 
 ## 2. Benchmarks & Testing
 
