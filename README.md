@@ -99,6 +99,11 @@ Welcome to the **Gathered Paper Resources** repository! This repository serves a
 **Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors. LoLCATs significantly improves the quality and scalability of linearized LLMs, achieving state-of-the-art performance with substantially reduced memory and computational requirements. Notably, it enables the creation of linearized models up to 405 billion parameters, marking a significant advancement in the field.   
 **Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
+### RESOLVE: Relational Reasoning with Symbolic and Object-Level Features Using Vector Symbolic Processing   
+**Paper**: [Link](https://paperswithcode.com/paper/resolve-relational-reasoning-with-symbolic)   
+**Summary**: RESOLVE introduces a neuro-vector symbolic architecture that integrates object-level features with relational representations in high-dimensional spaces. Utilizing operations like bundling (summation) and binding (Hadamard product), it enables the coexistence of object-level and relational information without interference. The model features a novel attention mechanism operating in a bipolar high-dimensional space, facilitating efficient attention score computation. RESOLVE demonstrates improved generalizability and accuracy in tasks requiring both pure and partial relational reasoning, such as sorting and mathematical problem-solving, compared to existing methods.   
+**Tags**: #relational-reasoning #vector-symbolic-processing #neuro-symbolic-AI #AI
+
 
 ## 5. Deepfake & Anomaly Detection
 
