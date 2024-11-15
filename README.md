@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks   
+**Paper**: [Link](https://paperswithcode.com/paper/kinetix-investigating-the-training-of-general)   
+**Summary**: Kinetix introduces an open-ended framework for training general reinforcement learning (RL) agents across a vast array of 2D physics-based tasks. By procedurally generating tens of millions of environments—ranging from robotic locomotion and grasping to video games—the framework enables agents to develop robust physical reasoning capabilities. Utilizing the hardware-accelerated physics engine Jax2D, Kinetix efficiently simulates billions of environment steps during training. Agents trained within this framework demonstrate strong zero-shot performance on unseen, human-designed environments and exhibit enhanced adaptability when fine-tuned on specific tasks, outperforming agents trained from scratch.   
+**Tags**: #reinforcement-learning #physics-based-tasks #generalization #AI
+
 ### Kolmogorov-Arnold Transformers
 **Paper**: [Link](https://paperswithcode.com/paper/kolmogorov-arnold-transformer)  
 **Summary**: This paper presents the Kolmogorov-Arnold Transformer, a novel architecture aimed at improving the efficiency and performance of transformer models.  
