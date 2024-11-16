@@ -120,6 +120,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 **Summary**: RESOLVE introduces a neuro-vector symbolic architecture that integrates object-level features with relational representations in high-dimensional spaces. Utilizing operations like bundling (summation) and binding (Hadamard product), it enables the coexistence of object-level and relational information without interference. The model features a novel attention mechanism operating in a bipolar high-dimensional space, facilitating efficient attention score computation. RESOLVE demonstrates improved generalizability and accuracy in tasks requiring both pure and partial relational reasoning, such as sorting and mathematical problem-solving, compared to existing methods.   
 **Tags**: #relational-reasoning #vector-symbolic-processing #neuro-symbolic-AI #AI
 
+### Qwen2.5-Coder Technical Report  
+**Paper**: [Link](https://paperswithcode.com/paper/qwen2-5-coder-technical-report)  
+**Summary**: The Qwen2.5-Coder series is an advancement over its predecessor, CodeQwen1.5, featuring six models ranging from 0.5B to 32B parameters. Built upon the Qwen2.5 architecture, these code-specific models are pretrained on a vast corpus exceeding 5.5 trillion tokens. Through meticulous data cleaning, scalable synthetic data generation, and balanced data mixing, Qwen2.5-Coder demonstrates impressive code generation capabilities while retaining general and mathematical skills. Evaluations across more than ten benchmarks—including code generation, completion, reasoning, and repair—show that Qwen2.5-Coder consistently outperforms larger models of the same size, achieving state-of-the-art performance.  
+**Tags**: #code-generation #LLM #AI #Qwen2.5-Coder   
+
 
 ## 5. Deepfake & Anomaly Detection
 
