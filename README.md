@@ -163,10 +163,18 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 8. CUDA & Computing Basics
 
+### Understanding Attention Heads in Machine Learning   
+**Source**: [YouTube](https://www.youtube.com/watch?v=qR56cyMdDXg)   
+**Summary**: This educational video provides an in-depth explanation of attention heads within transformer models, a fundamental component in modern machine learning architectures. It covers the mechanics of attention mechanisms, their role in processing input data, and how they contribute to the performance of models in tasks like natural language processing and computer vision.  
+**Tags**: #attention-heads #transformer-models #machine-learning #AI
+
+
 ### How CUDA Programming Works
 **Source**: [YouTube](https://www.youtube.com/watch?v=n6M8R8-PlnE&t=75s)  
 **Summary**: This YouTube video provides an overview of CUDA programming, explaining its functionality and applications in parallel computing.  
 **Tags**: #CUDA #computing
+
+
 
 ## 9. Poisoning Attacks
 
