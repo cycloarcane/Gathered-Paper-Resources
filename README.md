@@ -163,7 +163,7 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 8. CUDA & Computing Basics
 
-### Understanding Attention Heads in Machine Learning   
+### Every attention head explained   
 **Source**: [YouTube](https://www.youtube.com/watch?v=qR56cyMdDXg)   
 **Summary**: This educational video provides an in-depth explanation of attention heads within transformer models, a fundamental component in modern machine learning architectures. It covers the mechanics of attention mechanisms, their role in processing input data, and how they contribute to the performance of models in tasks like natural language processing and computer vision.  
 **Tags**: #attention-heads #transformer-models #machine-learning #AI
@@ -201,6 +201,13 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 **Tags**: #KAG #knowledge-augmentation #professional-domains #AI
 
 ## 11. Security Frameworks & Adversarial Toolkits
+
+### garak: A Framework for Security Probing Large Language Models   
+**Paper**: [Link](https://paperswithcode.com/paper/garak-a-framework-for-security-probing-large)   
+**Summary**: garak (Generative AI Red-teaming and Assessment Kit) is an open-source framework designed to identify vulnerabilities in large language models (LLMs) and dialogue systems. It systematically probes LLMs to uncover potential security weaknesses, providing detailed reports that inform discussions on model alignment and deployment policies.   
+**Tags**: #LLM #security #vulnerability-assessment #AI   
+
+
 
 ### AdvSecureNet
 **Paper**: [Link](https://paperswithcode.com/paper/advsecurenet-a-python-toolkit-for-adversarial)  
