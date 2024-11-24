@@ -147,6 +147,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 7. Speech Models
 
+### F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching   
+**Paper**: [Link](https://paperswithcode.com/paper/f5-tts-a-fairytaler-that-fakes-fluent-and)   
+**Summary**: F5-TTS introduces a fully non-autoregressive text-to-speech (TTS) system utilizing flow matching with a Diffusion Transformer (DiT). By padding text inputs to match the length of speech inputs and performing denoising for speech generation, it eliminates the need for complex components like duration models, text encoders, and phoneme alignment. Enhancements include the integration of ConvNeXt for refined text representation and the implementation of a Sway Sampling strategy during inference, which significantly boosts performance and efficiency. Trained on a 100K-hour multilingual dataset, F5-TTS demonstrates natural and expressive zero-shot capabilities, seamless code-switching, and efficient speed control, achieving an inference real-time factor (RTF) of 0.15.   
+**Tags**: #text-to-speech #flow-matching #Diffusion-Transformer #AI
+
 ### Qwen2-Audio
 **Summary**: Qwen2-Audio is an advanced speech model designed to improve audio processing capabilities in AI systems.  
 **Tags**: #speech #audio #AI-models
@@ -206,8 +211,6 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 **Paper**: [Link](https://paperswithcode.com/paper/garak-a-framework-for-security-probing-large)   
 **Summary**: garak (Generative AI Red-teaming and Assessment Kit) is an open-source framework designed to identify vulnerabilities in large language models (LLMs) and dialogue systems. It systematically probes LLMs to uncover potential security weaknesses, providing detailed reports that inform discussions on model alignment and deployment policies.   
 **Tags**: #LLM #security #vulnerability-assessment #AI   
-
-
 
 ### AdvSecureNet
 **Paper**: [Link](https://paperswithcode.com/paper/advsecurenet-a-python-toolkit-for-adversarial)  
