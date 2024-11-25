@@ -138,6 +138,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 **Summary**: AnomalyNCD proposes a novel approach to anomaly detection, focusing on identifying new anomaly classes in AI systems.  
 **Tags**: #anomaly-detection #AI
 
+### FairAdapter
+**Paper**: [Link](https://paperswithcode.com/paper/fairadapter-detecting-ai-generated-images)  
+**Summary**: FairAdapter addresses the challenge of detecting AI-generated images, which often exhibit inconsistencies across different content types due to overfitting in existing detection models. This framework enhances detection fairness by mitigating performance disparities across various image contents. Comparative evaluations demonstrate that FairAdapter outperforms current state-of-the-art methods in achieving more consistent detection outcomes.  
+**Tags**: #AI-generated-images #detection-fairness #deep-learning #image-forensics
+
+
 ## 6. Optimization Techniques & Frameworks
 
 ### Hot-DoG
