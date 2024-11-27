@@ -251,6 +251,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 13. User Interface (UI) & GUI Tools
 
+### The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+**Paper**: [Link](https://paperswithcode.com/paper/the-dawn-of-gui-agent-a-preliminary-case)  
+**Summary**: This study explores Claude 3.5 Computer Use, an AI model designed to function as a graphical user interface (GUI) agent. The authors curated a set of tasks across various domains and software to assess its capabilities. Findings indicate that Claude 3.5 can effectively translate language instructions into desktop actions, showcasing its potential in real-world applications. The study also introduces an out-of-the-box agent framework for deploying API-based GUI automation models, aiming to inspire further research in the GUI agent community.  
+**Tags**: #GUI-agent #AI #automation #Claude3.5
+
+
 ### Huggingface - AutoTrain
 **Paper**: [Link](https://paperswithcode.com/paper/autotrain-no-code-training-for-state-of-the)  
 **Summary**: AutoTrain by Huggingface introduces a no-code solution for training machine learning models, simplifying model customization and deployment.  
