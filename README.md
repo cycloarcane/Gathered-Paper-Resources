@@ -70,6 +70,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Multi-Programming Language Sandbox for LLMs
+**Paper**: [Link](https://paperswithcode.com/paper/multi-programming-language-sandbox-for-llms)  
+**Summary**: This paper introduces MPLSandbox, an out-of-the-box framework designed to provide unified and comprehensive feedback from compiler and analysis tools for Large Language Models (LLMs). MPLSandbox automatically identifies the programming language of the code, compiling and executing it within an isolated sub-sandbox to ensure safety and stability. It integrates both traditional and LLM-based code analysis tools, offering a thorough examination of generated code. The framework can be seamlessly incorporated into the training and deployment of LLMs to enhance the quality and correctness of their code outputs, thereby streamlining workflows for various LLM-based code-related tasks and reducing development costs.  
+**Tags**: #LLM #code-analysis #sandbox #programming-languages
+
+
 ### O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?
 **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
 **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
