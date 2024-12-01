@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Star Attention: Efficient LLM Inference over Long Sequences
+**Paper**: [Link](https://paperswithcode.com/paper/star-attention-efficient-llm-inference-over)  
+**Summary**: Star Attention introduces a two-phase block-sparse approximation to enhance the efficiency of Transformer-based Large Language Models (LLMs) during inference on long sequences. The first phase employs blockwise-local attention processed in parallel across multiple hosts, while the second phase allows query and response tokens to attend to all prior cached tokens through sequence-global attention. This method reduces memory requirements and inference time by up to 11x, maintaining 95-100% accuracy.  
+**Tags**: #LLM #attention-mechanism #inference-optimization #block-sparse-attention
+
 ### Multi-Programming Language Sandbox for LLMs
 **Paper**: [Link](https://paperswithcode.com/paper/multi-programming-language-sandbox-for-llms)  
 **Summary**: This paper introduces MPLSandbox, an out-of-the-box framework designed to provide unified and comprehensive feedback from compiler and analysis tools for Large Language Models (LLMs). MPLSandbox automatically identifies the programming language of the code, compiling and executing it within an isolated sub-sandbox to ensure safety and stability. It integrates both traditional and LLM-based code analysis tools, offering a thorough examination of generated code. The framework can be seamlessly incorporated into the training and deployment of LLMs to enhance the quality and correctness of their code outputs, thereby streamlining workflows for various LLM-based code-related tasks and reducing development costs.  
@@ -255,6 +260,18 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 **Tags**: #open-source #infrastructure #AI
 
 ## 13. User Interface (UI) & GUI Tools
+
+### ShowUI: One Vision-Language-Action Model for GUI Visual Agent
+**Paper**: [Link](https://paperswithcode.com/paper/showui-one-vision-language-action-model-for)  
+**Summary**: ShowUI is a vision-language-action model designed to enhance human productivity by enabling AI agents to interact with graphical user interfaces (GUIs) in a manner similar to human perception. Unlike traditional language-based agents that depend on text-rich meta-information, ShowUI incorporates:
+
+1. **UI-Guided Visual Token Selection**: Reduces computational costs by creating a connected graph of UI elements from screenshots, identifying redundant relationships, and selecting tokens during self-attention blocks.
+2. **Interleaved Vision-Language-Action Streaming**: Unifies diverse GUI task requirements, effectively managing visual-action history in navigation and pairing multi-turn query-action sequences per screenshot to enhance training efficiency.
+3. **High-Quality GUI Instruction-Following Datasets**: Utilizes careful data curation and a resampling strategy to address data type imbalances.
+
+The lightweight 2B model achieves 75.1% accuracy in zero-shot screenshot grounding, reduces redundant visual tokens by 33% during training, and improves performance speed by 1.4x. Experiments across web (Mind2Web), mobile (AITW), and online (MiniWob) environments demonstrate its effectiveness in advancing GUI visual agents.  
+**Tags**: #GUI-assistants #vision-language-action #AI #productivity
+
 
 ### The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
 **Paper**: [Link](https://paperswithcode.com/paper/the-dawn-of-gui-agent-a-preliminary-case)  
