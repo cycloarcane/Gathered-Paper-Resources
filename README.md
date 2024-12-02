@@ -305,6 +305,12 @@ The lightweight 2B model achieves 75.1% accuracy in zero-shot screenshot groundi
 
 ## 16. Image Animation
 
+### StableAnimator: High-Quality Identity-Preserving Human Image Animation
+**Paper**: [Link](https://paperswithcode.com/paper/stableanimator-high-quality-identity)  
+**Summary**: StableAnimator is an end-to-end video diffusion framework designed to synthesize high-quality human image animations while preserving identity (ID) consistency. It utilizes off-the-shelf extractors to compute image and face embeddings, refining them through a global content-aware Face Encoder. A novel distribution-aware ID Adapter is introduced to prevent interference from temporal layers, maintaining ID alignment. During inference, a Hamilton-Jacobi-Bellman (HJB) equation-based optimization is employed to enhance face quality by constraining the denoising path, thereby benefiting ID preservation. Experiments across multiple benchmarks demonstrate StableAnimator's effectiveness both qualitatively and quantitatively.  
+**Tags**: #image-animation #identity-preservation #video-diffusion #AI
+
+
 ### Hallo2
 **Paper**: [Link](https://paperswithcode.com/paper/hallo2-long-duration-and-high-resolution)  
 **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames.  
