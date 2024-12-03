@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Initialization Using Update Approximation Is Effective for Training Transformers
+**Paper**: [Link](https://paperswithcode.com/paper/initialization-using-update-approximation-is)  
+**Summary**: This paper introduces a novel initialization method that approximates full fine-tuning within low-rank subspaces for training Transformer models. By employing a carefully designed initialization strategy, the approach achieves optimal scaling for high-rank gradient updates without the need for extensive hyperparameter tuning. The method demonstrates significant efficiency gains, using 27-90 times fewer parameters than standard low-rank adaptation techniques, while surpassing their performance across various tasks, including mathematical reasoning and language understanding.  
+**Tags**: #transformers #initialization #low-rank-fine-tuning #AI
+
 ### Star Attention: Efficient LLM Inference over Long Sequences
 **Paper**: [Link](https://paperswithcode.com/paper/star-attention-efficient-llm-inference-over)  
 **Summary**: Star Attention introduces a two-phase block-sparse approximation to enhance the efficiency of Transformer-based Large Language Models (LLMs) during inference on long sequences. The first phase employs blockwise-local attention processed in parallel across multiple hosts, while the second phase allows query and response tokens to attend to all prior cached tokens through sequence-global attention. This method reduces memory requirements and inference time by up to 11x, maintaining 95-100% accuracy.  
