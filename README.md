@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge
+**Paper**: [Link](https://paperswithcode.com/paper/from-generation-to-judgment-opportunities-and)  
+**Summary**: This paper provides a comprehensive survey of the emerging "LLM-as-a-judge" paradigm, where Large Language Models (LLMs) are utilized for scoring, ranking, or selection across various tasks and applications. It introduces a detailed taxonomy exploring three dimensions: what to judge, how to judge, and where to judge. The study compiles benchmarks for evaluating LLM-based judgment systems and discusses key challenges and future research directions in this field.  
+**Tags**: #LLM #AI-evaluation #survey #AI
+
 ### Initialization Using Update Approximation Is Effective for Training Transformers
 **Paper**: [Link](https://paperswithcode.com/paper/initialization-using-update-approximation-is)  
 **Summary**: This paper introduces a novel initialization method that approximates full fine-tuning within low-rank subspaces for training Transformer models. By employing a carefully designed initialization strategy, the approach achieves optimal scaling for high-rank gradient updates without the need for extensive hyperparameter tuning. The method demonstrates significant efficiency gains, using 27-90 times fewer parameters than standard low-rank adaptation techniques, while surpassing their performance across various tasks, including mathematical reasoning and language understanding.  
@@ -147,6 +152,7 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 
 ## 5. Deepfake & Anomaly Detection
+
 
 ### Capture Artifacts for Deepfake Detection
 **Paper**: [Link](https://paperswithcode.com/paper/capture-artifacts-via-progressive)  
