@@ -316,6 +316,18 @@ The lightweight 2B model achieves 75.1% accuracy in zero-shot screenshot groundi
 
 ## 16. Image Animation
 
+### Open-Sora Plan: Open-Source Large Video Generation Model
+**Paper**: [Link](https://paperswithcode.com/paper/open-sora-plan-open-source-large-video)  
+**Summary**: The Open-Sora Plan introduces an open-source initiative aimed at developing a large-scale model capable of generating high-resolution, extended-duration videos based on diverse user inputs. The project encompasses several components integral to the video generation process, including:
+
+- **Wavelet-Flow Variational Autoencoder**: Facilitates efficient video data compression and reconstruction.
+- **Joint Image-Video Skiparse Denoiser**: Enhances video quality by reducing noise in both images and videos.
+- **Condition Controllers**: Allow for precise control over various aspects of video generation.
+
+Additionally, the plan incorporates strategies for efficient training and inference, alongside a multi-dimensional data curation pipeline to procure high-quality data. Evaluations indicate that the Open-Sora Plan achieves impressive video generation results, both qualitatively and quantitatively. The project's code and model weights are publicly accessible at [https://github.com/PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan).  
+**Tags**: #video-generation #open-source #AI #Wavelet-Flow-VAE #Skiparse-Denoiser
+
+
 ### StableAnimator: High-Quality Identity-Preserving Human Image Animation
 **Paper**: [Link](https://paperswithcode.com/paper/stableanimator-high-quality-identity)  
 **Summary**: StableAnimator is an end-to-end video diffusion framework designed to synthesize high-quality human image animations while preserving identity (ID) consistency. It utilizes off-the-shelf extractors to compute image and face embeddings, refining them through a global content-aware Face Encoder. A novel distribution-aware ID Adapter is introduced to prevent interference from temporal layers, maintaining ID alignment. During inference, a Hamilton-Jacobi-Bellman (HJB) equation-based optimization is employed to enhance face quality by constraining the denoising path, thereby benefiting ID preservation. Experiments across multiple benchmarks demonstrate StableAnimator's effectiveness both qualitatively and quantitatively.  
