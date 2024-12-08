@@ -227,6 +227,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 10. Retrieval-Augmented Generation (RAG)
 
+
+### Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models
+**Paper**: [Link](https://paperswithcode.com/paper/auto-rag-autonomous-retrieval-augmented)  
+**Summary**: Auto-RAG introduces an autonomous iterative retrieval model that leverages the decision-making capabilities of Large Language Models (LLMs) to enhance Retrieval-Augmented Generation (RAG). Unlike traditional methods that rely on few-shot prompting or manually constructed rules, Auto-RAG enables LLMs to engage in multi-turn dialogues with retrievers, systematically planning retrievals and refining queries to acquire valuable knowledge. This process continues until sufficient external information is gathered, at which point the results are presented to the user. Experiments demonstrate that Auto-RAG effectively utilizes the reasoning and decision-making abilities of LLMs, leading to outstanding performance across six benchmarks. Additionally, Auto-RAG autonomously adjusts the number of iterations based on the difficulty of the questions and the utility of the retrieved knowledge, without requiring human intervention. The iterative retrieval process is expressed in natural language, enhancing interpretability and providing users with a more intuitive experience. The code is available at [https://github.com/ictnlp/Auto-RAG](https://github.com/ictnlp/Auto-RAG).  
+**Tags**: #Retrieval-Augmented-Generation #LLM #iterative-retrieval #AI
+
 ### MemoRAG
 **Paper**: [Link](https://paperswithcode.com/paper/memorag-moving-towards-next-gen-rag-via)  
 **Summary**: MemoRAG explores advanced techniques in retrieval-augmented generation for more effective information synthesis in AI systems.  
