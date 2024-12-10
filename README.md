@@ -200,6 +200,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 8. CUDA & Computing Basics
 
+### Quantum Computers Explained – Limits of Human Technology
+**Video**: [Link](https://www.youtube.com/watch?v=JhHMJCUmq28)  
+**Summary**: This educational video provides an accessible overview of quantum computing, exploring its fundamental principles and potential to revolutionize technology. It delves into the limitations of classical computers and illustrates how quantum mechanics can overcome these barriers, enabling unprecedented computational capabilities. The video also discusses the challenges in developing quantum computers and their prospective applications across various fields.  
+**Tags**: #quantum-computing #technology #education #computing
+
+
 ### Every attention head explained   
 **Source**: [YouTube](https://www.youtube.com/watch?v=qR56cyMdDXg)   
 **Summary**: This educational video provides an in-depth explanation of attention heads within transformer models, a fundamental component in modern machine learning architectures. It covers the mechanics of attention mechanisms, their role in processing input data, and how they contribute to the performance of models in tasks like natural language processing and computer vision.  
