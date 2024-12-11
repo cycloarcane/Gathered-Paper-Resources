@@ -384,9 +384,6 @@ Additionally, the plan incorporates strategies for efficient training and infere
 **Tags**: #bias-mitigation #queer-representation #LLM #inclusive-language
 
 
-
-
-
 ## 20. Miscellaneous Interesting
 
 ### Analysing the Cultural Dimensions of Cybercriminal Groups: A Case Study on the Conti Ransomware Group
@@ -394,3 +391,16 @@ Additionally, the plan incorporates strategies for efficient training and infere
 **Summary**: This study explores the cultural aspects of cybercriminal organizations, focusing on the Conti ransomware group. By analyzing leaked internal communications, the authors apply Hofstede's and Meyer's cultural dimension frameworks to understand the group's operational behaviors. The findings suggest that cultural analysis can enhance cyber threat intelligence and attribution processes, offering deeper insights into the modus operandi of such groups.
 **Tags**: #cybersecurity #cultural-analysis #threat-intelligence #ransomware
 
+
+## 21. Robotics & Automation   
+
+### RoboMatrix: A Skill-centric Hierarchical Framework for Scalable Robot Task Planning and Execution in Open-World
+**Paper**: [Link](https://paperswithcode.com/paper/robomatrix-a-skill-centric-hierarchical)  
+**Summary**: RoboMatrix introduces a skill-centric and hierarchical framework aimed at enhancing robot task planning and execution in open-world environments. By extracting common meta-skills from various complex tasks, the framework enables robots to dynamically combine these learned skills to address novel tasks. RoboMatrix is structured into three interconnected layers:
+
+1. **Scheduling Layer**: Utilizes a general Large Language Model (LLM) to decompose tasks and select appropriate skill models.
+2. **Skill Layer**: Houses a matrix of meta-skills learned through a unified Vision-Language-Action (VLA) model and hybrid models.
+3. **Hardware Layer**: Executes the selected skills on the physical robot.
+
+This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments. The project's software and hardware resources are available at [https://github.com/WayneMao/RoboMatrix](https://github.com/WayneMao/RoboMatrix).  
+**Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
