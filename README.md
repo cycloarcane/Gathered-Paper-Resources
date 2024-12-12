@@ -334,6 +334,11 @@ The lightweight 2B model achieves 75.1% accuracy in zero-shot screenshot groundi
 
 ## 16. Image Animation
 
+### HunyuanVideo: A Systematic Framework For Large Video Generative Models
+**Paper**: [Link](https://paperswithcode.com/paper/hunyuanvideo-a-systematic-framework-for-large)  
+**Summary**: HunyuanVideo is an open-source video foundation model that achieves performance in video generation comparable to, or surpassing, leading closed-source models. The framework integrates key components such as data curation, advanced architectural design, progressive model scaling and training, and an efficient infrastructure for large-scale model training and inference. The resulting model, with over 13 billion parameters, is the largest open-source video generative model to date. Evaluations indicate that HunyuanVideo outperforms previous state-of-the-art models, including Runway Gen-3 and Luma 1.6. The code and model weights are publicly available at [https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/HunyuanVideo).  
+**Tags**: #video-generation #open-source #AI #large-scale-models
+
 ### Open-Sora Plan: Open-Source Large Video Generation Model
 **Paper**: [Link](https://paperswithcode.com/paper/open-sora-plan-open-source-large-video)  
 **Summary**: The Open-Sora Plan introduces an open-source initiative aimed at developing a large-scale model capable of generating high-resolution, extended-duration videos based on diverse user inputs. The project encompasses several components integral to the video generation process, including:
