@@ -70,6 +70,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### An Evolved Universal Transformer Memory
+**Paper**: [Link](https://paperswithcode.com/paper/an-evolved-universal-transformer-memory)  
+**Summary**: This paper introduces Neural Attention Memory Models (NAMMs), a learned network for memory management that enhances both the performance and efficiency of transformers. NAMMs provide distinct latent contexts, focusing on the most relevant information for individual layers and attention heads. They condition exclusively on the values in the produced attention matrices, making them universally applicable to any model utilizing self-attention. Training NAMMs on a small set of problems yields significant performance improvements across multiple long-context benchmarks while reducing the model's input contexts to a fraction of their original sizes. Notably, NAMMs trained solely on language demonstrate zero-shot transfer capabilities to entirely new transformer architectures across different input modalities, with benefits extending to vision and reinforcement learning tasks.  
+**Tags**: #transformers #memory-management #self-attention #AI
+
+
 ### From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge
 **Paper**: [Link](https://paperswithcode.com/paper/from-generation-to-judgment-opportunities-and)  
 **Summary**: This paper provides a comprehensive survey of the emerging "LLM-as-a-judge" paradigm, where Large Language Models (LLMs) are utilized for scoring, ranking, or selection across various tasks and applications. It introduces a detailed taxonomy exploring three dimensions: what to judge, how to judge, and where to judge. The study compiles benchmarks for evaluating LLM-based judgment systems and discusses key challenges and future research directions in this field.  
