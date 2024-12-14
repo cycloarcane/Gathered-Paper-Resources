@@ -263,6 +263,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 11. Security Frameworks & Adversarial Toolkits
 
+### Granite Guardian
+**Paper**: [Link](https://paperswithcode.com/paper/granite-guardian)  
+**Summary**: Granite Guardian introduces a suite of models designed to detect risks in prompts and responses, facilitating the safe and responsible use of large language models (LLMs). These models cover multiple risk dimensions, including social bias, profanity, violence, sexual content, unethical behavior, jailbreaking, and hallucination-related risks such as context relevance, groundedness, and answer relevance for retrieval-augmented generation (RAG). Trained on a unique dataset that combines human annotations from diverse sources with synthetic data, Granite Guardian addresses risks often overlooked by traditional detection models. It achieves AUC scores of 0.871 and 0.854 on harmful content and RAG-hallucination-related benchmarks, respectively, making it a generalizable and competitive model in this domain. The models are open-sourced to promote responsible AI development within the community. The code is available at [https://github.com/ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian).  
+**Tags**: #risk-detection #LLM #AI-safety #open-source
+
+
 ### garak: A Framework for Security Probing Large Language Models   
 **Paper**: [Link](https://paperswithcode.com/paper/garak-a-framework-for-security-probing-large)   
 **Summary**: garak (Generative AI Red-teaming and Assessment Kit) is an open-source framework designed to identify vulnerabilities in large language models (LLMs) and dialogue systems. It systematically probes LLMs to uncover potential security weaknesses, providing detailed reports that inform discussions on model alignment and deployment policies.   
