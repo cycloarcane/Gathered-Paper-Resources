@@ -421,3 +421,10 @@ Additionally, the plan incorporates strategies for efficient training and infere
 
 This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments. The project's software and hardware resources are available at [https://github.com/WayneMao/RoboMatrix](https://github.com/WayneMao/RoboMatrix).  
 **Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
+
+## 22. Computer Vision
+
+### Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders
+**Paper**: [Link](https://paperswithcode.com/paper/gaze-lle-gaze-target-estimation-via-large)  
+**Summary**: Gaze-LLE addresses the challenge of gaze target estimation by leveraging features from a frozen DINOv2 encoder within a novel transformer framework. By extracting a unified feature representation for the scene and applying a person-specific positional prompt, the model streamlines gaze prediction without relying on complex, hand-crafted pipelines. This approach achieves state-of-the-art performance across multiple gaze benchmarks, demonstrating the effectiveness of utilizing large-scale learned encoders for this task. The code is available at [https://github.com/fkryan/gazelle](https://github.com/fkryan/gazelle).  
+**Tags**: #gaze-estimation #transformer #DINOv2 #AI
