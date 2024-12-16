@@ -346,6 +346,12 @@ The lightweight 2B model achieves 75.1% accuracy in zero-shot screenshot groundi
 
 ## 16. Image Animation
 
+### SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints
+**Paper**: [Link](https://paperswithcode.com/paper/syncammaster-synchronizing-multi-camera-video)  
+**Summary**: SynCamMaster introduces a plug-and-play module that enhances pre-trained text-to-video models for generating synchronized multi-camera videos from diverse viewpoints. It incorporates a multi-view synchronization module to maintain appearance and geometry consistency across different camera angles. To address the scarcity of high-quality training data, the authors design a hybrid training scheme leveraging multi-camera images, monocular videos, and Unreal Engine-rendered multi-camera videos. This approach enables applications such as virtual filming by ensuring dynamic consistency across various viewpoints. The project page is available at [https://jianhongbai.github.io/SynCamMaster/](https://jianhongbai.github.io/SynCamMaster/).  
+**Tags**: #video-generation #multi-camera #synchronization #AI
+
+
 ### HunyuanVideo: A Systematic Framework For Large Video Generative Models
 **Paper**: [Link](https://paperswithcode.com/paper/hunyuanvideo-a-systematic-framework-for-large)  
 **Summary**: HunyuanVideo is an open-source video foundation model that achieves performance in video generation comparable to, or surpassing, leading closed-source models. The framework integrates key components such as data curation, advanced architectural design, progressive model scaling and training, and an efficient infrastructure for large-scale model training and inference. The resulting model, with over 13 billion parameters, is the largest open-source video generative model to date. Evaluations indicate that HunyuanVideo outperforms previous state-of-the-art models, including Runway Gen-3 and Luma 1.6. The code and model weights are publicly available at [https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/HunyuanVideo).  
