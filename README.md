@@ -445,3 +445,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 **Paper**: [Link](https://paperswithcode.com/paper/gaze-lle-gaze-target-estimation-via-large)  
 **Summary**: Gaze-LLE addresses the challenge of gaze target estimation by leveraging features from a frozen DINOv2 encoder within a novel transformer framework. By extracting a unified feature representation for the scene and applying a person-specific positional prompt, the model streamlines gaze prediction without relying on complex, hand-crafted pipelines. This approach achieves state-of-the-art performance across multiple gaze benchmarks, demonstrating the effectiveness of utilizing large-scale learned encoders for this task. The code is available at [https://github.com/fkryan/gazelle](https://github.com/fkryan/gazelle).  
 **Tags**: #gaze-estimation #transformer #DINOv2 #AI
+
+## 23. Machine Learning Libraries & Tools
+
+### A Library for Learning Neural Operators
+**Paper**: [Link](https://paperswithcode.com/paper/a-library-for-learning-neural-operators)  
+**Summary**: This paper introduces NeuralOperator, an open-source Python library designed to facilitate operator learning. Unlike traditional neural networks that map between finite-dimensional Euclidean spaces, neural operators are capable of learning mappings between function spaces, enabling them to handle inputs and outputs at various discretizations. Built on PyTorch, NeuralOperator offers tools for training and deploying neural operator models, as well as developing new ones, providing a user-friendly interface for both newcomers and experienced practitioners.  
+**Tags**: #operator-learning #neural-operators #open-source #Python-library
