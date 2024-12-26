@@ -452,3 +452,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 **Paper**: [Link](https://paperswithcode.com/paper/a-library-for-learning-neural-operators)  
 **Summary**: This paper introduces NeuralOperator, an open-source Python library designed to facilitate operator learning. Unlike traditional neural networks that map between finite-dimensional Euclidean spaces, neural operators are capable of learning mappings between function spaces, enabling them to handle inputs and outputs at various discretizations. Built on PyTorch, NeuralOperator offers tools for training and deploying neural operator models, as well as developing new ones, providing a user-friendly interface for both newcomers and experienced practitioners.  
 **Tags**: #operator-learning #neural-operators #open-source #Python-library
+
+## 24. Biology & Organic Science
+
+### Automating the Search for Artificial Life with Foundation Models
+**Paper**: [Link](https://paperswithcode.com/paper/automating-the-search-for-artificial-life)  
+**Summary**: This paper introduces the Automated Search for Artificial Life (ASAL), a novel approach that leverages vision-language foundation models (FMs) to explore and discover lifelike simulations across various Artificial Life (ALife) substrates, including Boids, Particle Life, Game of Life, Lenia, and Neural Cellular Automata. ASAL automates the identification of simulations that produce target phenomena, generate temporally open-ended novelty, and illuminate a diverse range of interesting simulations. Notably, it has led to the discovery of previously unseen Lenia and Boids lifeforms, as well as cellular automata exhibiting open-ended behavior akin to Conway's Game of Life. This methodology represents a significant advancement in ALife research, reducing reliance on manual design and trial-and-error by harnessing the capabilities of foundation models to navigate large combinatorial spaces.  
+**Tags**: #ArtificialLife #FoundationModels #SimulationDiscovery #AI
+
