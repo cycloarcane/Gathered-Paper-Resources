@@ -70,6 +70,12 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Large Concept Models: Language Modeling in a Sentence Representation Space
+**Paper**: [Link](https://paperswithcode.com/paper/large-concept-models-language-modeling-in-a)  
+**Summary**: This paper introduces the concept of Large Concept Models (LCMs), which operate on higher-level semantic representations beyond individual tokens. By treating entire sentences as single concepts, LCMs utilize the SONAR sentence embedding space, supporting up to 200 languages in both text and speech modalities. The model is trained to perform autoregressive sentence prediction within this embedding space, exploring approaches such as MSE regression, diffusion-based generation variants, and models operating in a quantized SONAR space. This methodology aims to align AI processing more closely with human cognitive abstraction levels, enhancing the generation and analysis of complex information.  
+**Tags**: #language-modeling #sentence-embedding #multilingual #AI
+
+
 ### Byte Latent Transformer: Patches Scale Better Than Tokens
 **Paper**: [Link](https://paperswithcode.com/paper/byte-latent-transformer-patches-scale-better)  
 **Summary**: The Byte Latent Transformer (BLT) is a novel byte-level large language model (LLM) architecture that matches the performance of traditional tokenization-based LLMs while enhancing inference efficiency and robustness. BLT encodes raw bytes into dynamically sized patches, which serve as the primary computational units. These patches are segmented based on the entropy of the subsequent byte, allocating more computational resources to complex data segments. A FLOP-controlled scaling study of byte-level models up to 8 billion parameters and 4 trillion training bytes demonstrates that BLT can scale models trained on raw bytes without a fixed vocabulary. This approach improves both training and inference efficiency by dynamically selecting longer patches for predictable data, leading to qualitative enhancements in reasoning and generalization. Overall, for fixed inference costs, BLT exhibits superior scaling compared to tokenization-based models by concurrently increasing both patch and model sizes.  
