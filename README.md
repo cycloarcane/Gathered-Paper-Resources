@@ -466,3 +466,12 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 **Summary**: This paper introduces the Automated Search for Artificial Life (ASAL), a novel approach that leverages vision-language foundation models (FMs) to explore and discover lifelike simulations across various Artificial Life (ALife) substrates, including Boids, Particle Life, Game of Life, Lenia, and Neural Cellular Automata. ASAL automates the identification of simulations that produce target phenomena, generate temporally open-ended novelty, and illuminate a diverse range of interesting simulations. Notably, it has led to the discovery of previously unseen Lenia and Boids lifeforms, as well as cellular automata exhibiting open-ended behavior akin to Conway's Game of Life. This methodology represents a significant advancement in ALife research, reducing reliance on manual design and trial-and-error by harnessing the capabilities of foundation models to navigate large combinatorial spaces.  
 **Tags**: #ArtificialLife #FoundationModels #SimulationDiscovery #AI
 
+## 25. Spacial Reasoning
+
+### Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces
+**Paper**: [Link](https://paperswithcode.com/paper/thinking-in-space-how-multimodal-large)  
+**Summary**: This paper investigates whether Multimodal Large Language Models (MLLMs), trained on extensive video datasets, can develop visual-spatial intelligence akin to humans. The authors introduce VSI-Bench, a novel benchmark comprising over 5,000 question-answer pairs designed to assess video-based visual-spatial intelligence. Findings indicate that while MLLMs exhibit competitive, though subhuman, visual-spatial intelligence, spatial reasoning remains a significant bottleneck. Probing these models reveals emerging local world models and spatial awareness. Notably, traditional linguistic reasoning techniques like chain-of-thought and self-consistency do not enhance performance, whereas generating explicit cognitive maps during question-answering improves spatial distance reasoning.  
+**Tags**: #MLLM #visual-spatial-intelligence #VSI-Bench #cognitive-maps
+
+
+
