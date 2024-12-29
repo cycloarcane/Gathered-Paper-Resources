@@ -434,6 +434,11 @@ Additionally, the plan incorporates strategies for efficient training and infere
 
 ## 21. Robotics & Automation   
 
+### OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving
+**Paper**: [Link](https://paperswithcode.com/paper/openemma-open-source-multimodal-model-for-end)  
+**Summary**: OpenEMMA is an open-source end-to-end framework that leverages Multimodal Large Language Models (MLLMs) to enhance autonomous driving systems. By incorporating Chain-of-Thought reasoning processes, OpenEMMA improves performance across various challenging driving scenarios, offering a more efficient and effective approach to autonomous driving. The project's code is available at [https://github.com/taco-group/OpenEMMA](https://github.com/taco-group/OpenEMMA).  
+**Tags**: #autonomous-driving #MLLM #open-source #AI
+
 ### RoboMatrix: A Skill-centric Hierarchical Framework for Scalable Robot Task Planning and Execution in Open-World
 **Paper**: [Link](https://paperswithcode.com/paper/robomatrix-a-skill-centric-hierarchical)  
 **Summary**: RoboMatrix introduces a skill-centric and hierarchical framework aimed at enhancing robot task planning and execution in open-world environments. By extracting common meta-skills from various complex tasks, the framework enables robots to dynamically combine these learned skills to address novel tasks. RoboMatrix is structured into three interconnected layers:
