@@ -459,6 +459,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ## 23. Machine Learning Libraries & Tools
 
+### The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning
+**Paper**: [Link](https://paperswithcode.com/paper/the-well-a-large-scale-collection-of-diverse)  
+**Summary**: The Well is a comprehensive collection of datasets comprising numerical simulations across various spatiotemporal physical systems. It offers 15TB of data spanning 16 datasets, covering domains such as biological systems, fluid dynamics, acoustic scattering, and magneto-hydrodynamic simulations of extra-galactic fluids and supernova explosions. This resource aims to facilitate the development and evaluation of machine learning-based surrogate models in physics by providing a diverse range of physical behaviors. A unified PyTorch interface is available for training and evaluating models using these datasets. The code and data are accessible at [https://github.com/PolymathicAI/the_well](https://github.com/PolymathicAI/the_well).  
+**Tags**: #physics-simulations #machine-learning #datasets #open-source
+
 ### A Library for Learning Neural Operators
 **Paper**: [Link](https://paperswithcode.com/paper/a-library-for-learning-neural-operators)  
 **Summary**: This paper introduces NeuralOperator, an open-source Python library designed to facilitate operator learning. Unlike traditional neural networks that map between finite-dimensional Euclidean spaces, neural operators are capable of learning mappings between function spaces, enabling them to handle inputs and outputs at various discretizations. Built on PyTorch, NeuralOperator offers tools for training and deploying neural operator models, as well as developing new ones, providing a user-friendly interface for both newcomers and experienced practitioners.  
