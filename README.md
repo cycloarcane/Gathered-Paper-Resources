@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### DeepSeek-V3 Technical Report
+**Paper**: [Link](https://paperswithcode.com/paper/deepseek-v3-technical-report)  
+**Summary**: DeepSeek-V3 is a Mixture-of-Experts (MoE) language model comprising 671 billion parameters, with 37 billion activated per token. It is pre-trained on 14.8 trillion diverse, high-quality tokens, followed by supervised fine-tuning and reinforcement learning to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models, despite requiring only 2.788 million H800 GPU hours for full training. The training process is noted for its remarkable stability.  
+**Tags**: #language-model #Mixture-of-Experts #AI
+
 ### Large Concept Models: Language Modeling in a Sentence Representation Space
 **Paper**: [Link](https://paperswithcode.com/paper/large-concept-models-language-modeling-in-a)  
 **Summary**: This paper introduces the concept of Large Concept Models (LCMs), which operate on higher-level semantic representations beyond individual tokens. By treating entire sentences as single concepts, LCMs utilize the SONAR sentence embedding space, supporting up to 200 languages in both text and speech modalities. The model is trained to perform autoregressive sentence prediction within this embedding space, exploring approaches such as MSE regression, diffusion-based generation variants, and models operating in a quantized SONAR space. This methodology aims to align AI processing more closely with human cognitive abstraction levels, enhancing the generation and analysis of complex information.  
