@@ -201,6 +201,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 7. Speech Models
 
+### TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization
+**Paper**: [Link](https://paperswithcode.com/paper/tangoflux-super-fast-and-faithful-text-to)  
+**Summary**: TangoFlux is an efficient text-to-audio (TTA) generative model with 515 million parameters, capable of producing up to 30 seconds of 44.1kHz audio in just 3.7 seconds on a single A40 GPU. It introduces CLAP-Ranked Preference Optimization (CRPO), a novel framework that iteratively generates and optimizes preference data to enhance TTA alignment. TangoFlux outperforms existing TTA models in both objective and subjective evaluations, providing superior audio quality with reduced inference times. The project is open-source, with code and pretrained models available at [https://github.com/declare-lab/TangoFlux](https://github.com/declare-lab/TangoFlux).  
+**Tags**: #text-to-audio #audio-generation #open-source #AI
+
 ### F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching   
 **Paper**: [Link](https://paperswithcode.com/paper/f5-tts-a-fairytaler-that-fakes-fluent-and)   
 **Summary**: F5-TTS introduces a fully non-autoregressive text-to-speech (TTS) system utilizing flow matching with a Diffusion Transformer (DiT). By padding text inputs to match the length of speech inputs and performing denoising for speech generation, it eliminates the need for complex components like duration models, text encoders, and phoneme alignment. Enhancements include the integration of ConvNeXt for refined text representation and the implementation of a Sway Sampling strategy during inference, which significantly boosts performance and efficiency. Trained on a 100K-hour multilingual dataset, F5-TTS demonstrates natural and expressive zero-shot capabilities, seamless code-switching, and efficient speed control, achieving an inference real-time factor (RTF) of 0.15.   
