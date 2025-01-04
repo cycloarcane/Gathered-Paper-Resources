@@ -70,6 +70,11 @@ FinRobot delivers comprehensive company analyses with precise numerical data, in
 
 ## 4. AI Architectures & Models
 
+### Memory Layers at Scale  
+**Paper**: [Link](https://paperswithcode.com/paper/memory-layers-at-scale)  
+**Summary**: This paper introduces an enhanced memory layer for language models, demonstrating significant performance improvements, particularly in factual tasks. The proposed memory layer implementation is fully parallelizable and showcases scaling laws with up to 128 billion memory parameters, pretrained on 1 trillion tokens. The augmented models outperform both dense models with more than double the compute budget and mixture-of-expert models when matched for both compute and parameters.  
+**Tags**: #memory-augmentation #language-models #scaling-laws #AI
+
 ### DeepSeek-V3 Technical Report
 **Paper**: [Link](https://paperswithcode.com/paper/deepseek-v3-technical-report)  
 **Summary**: DeepSeek-V3 is a Mixture-of-Experts (MoE) language model comprising 671 billion parameters, with 37 billion activated per token. It is pre-trained on 14.8 trillion diverse, high-quality tokens, followed by supervised fine-tuning and reinforcement learning to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models, despite requiring only 2.788 million H800 GPU hours for full training. The training process is noted for its remarkable stability.  
