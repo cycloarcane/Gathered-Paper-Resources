@@ -499,4 +499,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 **Tags**: #MLLM #visual-spatial-intelligence #VSI-Bench #cognitive-maps
 
 
+## 26. Memory
+
+### Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks  
+**Paper**: [Link](https://paperswithcode.com/paper/don-t-do-rag-when-cache-augmented-generation)  
+**Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference. This approach reduces retrieval latency and errors while maintaining context relevance, particularly benefiting tasks with a limited and manageable knowledge base.  
+**Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
 
