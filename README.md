@@ -1,6 +1,6 @@
-# Welcome to my categorised resources from my reading of academic papers!
+**Welcome to my categorised resources from my reading of academic papers!**
 
-## Table of Contents
+# Table of Contents
 
 ## 1. Core AI Technologies
 - Language Models & Architecture
