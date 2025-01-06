@@ -208,7 +208,7 @@
   **Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors.  
   **Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
-# Applications & Implementations
+# Applications and Implementations
 
 ### Coding & Development Tools
 - **Multi-Programming Language Sandbox for LLMs**
@@ -263,7 +263,7 @@
 This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments.  
   **Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
 
-# AI Safety & Security
+# AI Safety and Security
 
 ### Security Frameworks
 
@@ -374,7 +374,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper provides a comprehensive survey of the emerging "LLM-as-a-judge" paradigm, where Large Language Models (LLMs) are utilized for scoring, ranking, or selection across various tasks and applications. It introduces a detailed taxonomy exploring three dimensions: what to judge, how to judge, and where to judge.  
   **Tags**: #LLM #AI-evaluation #survey #AI
 
-# Development Tools & Infrastructure
+# Development Tools and Infrastructure
 
 ### Testing & Benchmarking
 - **OSWorld**
