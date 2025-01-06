@@ -40,6 +40,12 @@
   **Tags**: #multimodal-model #tabular-data #AI
 
 ### Training & Optimization
+
+- **Huggingface - AutoTrain**
+  **Paper**: [Link](https://paperswithcode.com/paper/autotrain-no-code-training-for-state-of-the)  
+  **Summary**: AutoTrain by Huggingface introduces a no-code solution for training machine learning models, simplifying model customization and deployment.  
+  **Tags**: #UI #GUI #AI
+
 - **Initialization Using Update Approximation Is Effective for Training Transformers**
   **Paper**: [Link](https://paperswithcode.com/paper/initialization-using-update-approximation-is)  
   **Summary**: This paper introduces a novel initialization method that approximates full fine-tuning within low-rank subspaces for training Transformer models. By employing a carefully designed initialization strategy, the approach achieves optimal scaling for high-rank gradient updates without the need for extensive hyperparameter tuning. The method demonstrates significant efficiency gains, using 27-90 times fewer parameters than standard low-rank adaptation techniques, while surpassing their performance across various tasks, including mathematical reasoning and language understanding.  
@@ -340,10 +346,6 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This study explores Claude 3.5 Computer Use, an AI model designed to function as a graphical user interface (GUI) agent. The authors curated a set of tasks across various domains and software to assess its capabilities.  
   **Tags**: #GUI-agent #AI #automation #Claude3.5
 
-- **Huggingface - AutoTrain**
-  **Paper**: [Link](https://paperswithcode.com/paper/autotrain-no-code-training-for-state-of-the)  
-  **Summary**: AutoTrain by Huggingface introduces a no-code solution for training machine learning models, simplifying model customization and deployment.  
-  **Tags**: #UI #GUI #AI
 
 ### Infrastructure & Scaling
 - **LLaMA-Factory**
