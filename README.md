@@ -56,7 +56,7 @@
 - Energy Efficiency
 
 
-## 1. Core AI Technologies
+# 1. Core AI Technologies
 
 ### Language Models & Architecture
 - **DeepSeek-V3 Technical Report**
@@ -161,7 +161,7 @@
   **Summary**: This paper introduces R-CoT, a two-stage Reverse Chain-of-Thought geometry problem generation pipeline designed to enhance the geometric reasoning capabilities of Large Multimodal Models (LMMs).  
   **Tags**: #R-CoT #geometric-reasoning #multimodal-models #AI
 
-## 2. AI Enhancement Technologies
+# 2. AI Enhancement Technologies
 
 ### Response Filtering
 
@@ -208,7 +208,7 @@
   **Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors.  
   **Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
-## 3. Applications & Implementations
+# 3. Applications & Implementations
 
 ### Coding & Development Tools
 - **Multi-Programming Language Sandbox for LLMs**
@@ -263,7 +263,7 @@
 This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments.  
   **Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
 
-## 4. AI Safety & Security
+# 4. AI Safety & Security
 
 ### Security Frameworks
 
@@ -374,7 +374,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper provides a comprehensive survey of the emerging "LLM-as-a-judge" paradigm, where Large Language Models (LLMs) are utilized for scoring, ranking, or selection across various tasks and applications. It introduces a detailed taxonomy exploring three dimensions: what to judge, how to judge, and where to judge.  
   **Tags**: #LLM #AI-evaluation #survey #AI
 
-## 5. Development Tools & Infrastructure
+# 5. Development Tools & Infrastructure
 
 ### Testing & Benchmarking
 - **OSWorld**
@@ -411,7 +411,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: SWIFT provides scalable, lightweight infrastructure for efficient LLM deployment, designed to minimize resource consumption.  
   **Tags**: #open-source #infrastructure #AI
 
-## 6. Multimedia Processing
+# 6. Multimedia Processing
 
 ### Speech & Audio
 - **TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization**
@@ -466,7 +466,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #image-animation #audio-driven #high-resolution #long-duration
 
 
-## 7. Specialized Applications
+# 7. Specialized Applications
 
 ### Financial Technology
 - **FinRobot: AI Agent for Equity Research and Valuation with Large Language Models**
@@ -501,7 +501,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper introduces the Automated Search for Artificial Life (ASAL), a novel approach that leverages vision-language foundation models (FMs) to explore and discover lifelike simulations across various Artificial Life (ALife) substrates, including Boids, Particle Life, Game of Life, Lenia, and Neural Cellular Automata. ASAL automates the identification of simulations that produce target phenomena, generate temporally open-ended novelty, and illuminate a diverse range of interesting simulations.  
   **Tags**: #ArtificialLife #FoundationModels #SimulationDiscovery #AI
 
-## 8. Educational Resources
+# 8. Educational Resources
 
 ### Tutorials & Guides
 - **Quantum Computers Explained – Limits of Human Technology**
@@ -526,7 +526,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #quantum-computing #technology #analysis #reality-check
 
 
-## 9. Environmental Impact
+# 9. Environmental Impact
 
 ### Energy Efficiency
 - **The carbon emissions of writing and illustrating**
