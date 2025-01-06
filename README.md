@@ -11,7 +11,7 @@
 - Long Context Models
 - Spatial Reasoning
 
-## [2. AI Enhancement Technologies](#2-ai-enhancement-technologies)
+## [2. AI Enhancement Technologies](#ai-enhancement-technologies)
 - Performance Optimization
 - Retrieval & Augmentation
 - Hallucination Reduction
