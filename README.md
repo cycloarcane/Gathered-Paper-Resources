@@ -505,3 +505,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 **Paper**: [Link](https://paperswithcode.com/paper/memory-layers-at-scale)  
 **Summary**: This paper introduces an enhanced memory layer for language models, demonstrating significant performance improvements, particularly in factual tasks. The proposed memory layer implementation is fully parallelizable and showcases scaling laws with up to 128 billion memory parameters, pretrained on 1 trillion tokens. The augmented models outperform both dense models with more than double the compute budget and mixture-of-expert models when matched for both compute and parameters.  
 **Tags**: #memory-augmentation #language-models #scaling-laws #AI
+
+## 27. Training Framework
+
+### TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training  
+**Paper**: [Link](https://paperswithcode.com/paper/torchtitan-one-stop-pytorch-native-solution)  
+**Summary**: This paper introduces TorchTitan, an open-source, PyTorch-native distributed training system designed to streamline the training of large language models (LLMs). TorchTitan unifies state-of-the-art techniques, enabling modular 3D parallelism with elastic scaling, and provides comprehensive tools for logging, checkpointing, and debugging. It incorporates hardware-software co-designed solutions, such as Float8 training and SymmetricMemory, to enhance efficiency. The system has been thoroughly assessed on the Llama 3.1 family of LLMs, demonstrating exceptional performance, modular composability, and elastic scalability.  
+**Tags**: #distributed-training #PyTorch #large-language-models #AI
