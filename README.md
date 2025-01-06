@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-## [1. Core AI Technologies](#1-core-ai-technologies)
+## [1. Core AI Technologies](#core-ai-technologies)
 - Language Models & Architecture
 - Multimodal Models
 - Training & Optimization
@@ -17,14 +17,14 @@
 - Hallucination Reduction
 - Response Filtering
 
-## [3. Applications & Implementations](#3-applications--implementations)
+## [3. Applications & Implementations](#3-applications-implementations)
 - Coding & Development Tools
 - Agentic Frameworks & Task Management
 - Document Processing
 - Computer Vision
 - Robotics & Automation
 
-## [4. AI Safety & Security](#4-ai-safety--security)
+## [4. AI Safety & Security](#4-ai-safety-security)
 - Security Frameworks
 - Cybersecurity
 - Detection & Monitoring
@@ -33,7 +33,7 @@
 - Bias & Fairness
 - Privacy & Ethics
 
-## [5. Development Tools & Infrastructure](#5-development-tools--infrastructure)
+## [5. Development Tools & Infrastructure](#5-development-tools-infrastructure)
 - Testing & Benchmarking
 - User Interface & Interaction
 - Infrastructure & Scaling
@@ -56,7 +56,7 @@
 - Energy Efficiency
 
 
-# 1. Core AI Technologies
+# Core AI Technologies
 
 ### Language Models & Architecture
 - **DeepSeek-V3 Technical Report**
