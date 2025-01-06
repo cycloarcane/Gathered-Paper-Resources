@@ -50,6 +50,23 @@
   **Summary**: This paper introduces TorchTitan, an open-source, PyTorch-native distributed training system designed to streamline the training of large language models (LLMs). TorchTitan unifies state-of-the-art techniques, enabling modular 3D parallelism with elastic scaling, and provides comprehensive tools for logging, checkpointing, and debugging. It incorporates hardware-software co-designed solutions, such as Float8 training and SymmetricMemory, to enhance efficiency. The system has been thoroughly assessed on the Llama 3.1 family of LLMs, demonstrating exceptional performance, modular composability, and elastic scalability.  
   **Tags**: #distributed-training #PyTorch #large-language-models #AI
 
+- **Hot-DoG**
+  **Paper**: [Link](https://paperswithcode.com/paper/tuning-free-coreset-markov-chain-monte-carlo)  
+  **Summary**: Hot-DoG introduces a tuning-free coreset approach for Markov Chain Monte Carlo methods, enhancing optimization efficiency in AI models.  
+  **Tags**: #optimization #bayesian-optimization #frameworks
+
+### Long Context Models
+- **LongWriter**
+  **Paper**: [Link](https://paperswithcode.com/paper/longwriter-unleashing-10000-word-generation)  
+  **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that struggle to generate outputs exceeding 2,000 words. The authors introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words.  
+  **Tags**: #long-context #LLM #text-generation #AI
+
+### Cache & Memory Optimization
+- **Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks**
+  **Paper**: [Link](https://paperswithcode.com/paper/don-t-do-rag-when-cache-augmented-generation)  
+  **Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference.  
+  **Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
+
 ### Memory & Attention Mechanisms
 - **An Evolved Universal Transformer Memory**
   **Paper**: [Link](https://paperswithcode.com/paper/an-evolved-universal-transformer-memory)  
@@ -66,6 +83,22 @@
   **Summary**: This paper introduces an enhanced memory layer for language models, demonstrating significant performance improvements, particularly in factual tasks. The proposed memory layer implementation is fully parallelizable and showcases scaling laws with up to 128 billion memory parameters, pretrained on 1 trillion tokens. The augmented models outperform both dense models with more than double the compute budget and mixture-of-expert models when matched for both compute and parameters.  
   **Tags**: #memory-augmentation #language-models #scaling-laws #AI
 
+- **RESOLVE: Relational Reasoning with Symbolic and Object-Level Features Using Vector Symbolic Processing**   
+  **Paper**: [Link](https://paperswithcode.com/paper/resolve-relational-reasoning-with-symbolic)   
+  **Summary**: RESOLVE introduces a neuro-vector symbolic architecture that integrates object-level features with relational representations in high-dimensional spaces. Utilizing operations like bundling (summation) and binding (Hadamard product), it enables the coexistence of object-level and relational information without interference. The model features a novel attention mechanism operating in a bipolar high-dimensional space, facilitating efficient attention score computation. RESOLVE demonstrates improved generalizability and accuracy in tasks requiring both pure and partial relational reasoning, such as sorting and mathematical problem-solving, compared to existing methods.   
+  **Tags**: #relational-reasoning #vector-symbolic-processing #neuro-symbolic-AI #AI
+
+### Spatial Reasoning
+- **Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces**
+  **Paper**: [Link](https://paperswithcode.com/paper/thinking-in-space-how-multimodal-large)  
+  **Summary**: This paper investigates whether Multimodal Large Language Models (MLLMs), trained on extensive video datasets, can develop visual-spatial intelligence akin to humans. The authors introduce VSI-Bench, a novel benchmark comprising over 5,000 question-answer pairs designed to assess video-based visual-spatial intelligence.  
+  **Tags**: #MLLM #visual-spatial-intelligence #VSI-Bench #cognitive-maps
+
+- **R-CoT**
+  **Paper**: [Link](https://paperswithcode.com/paper/r-cot-reverse-chain-of-thought-problem)  
+  **Summary**: This paper introduces R-CoT, a two-stage Reverse Chain-of-Thought geometry problem generation pipeline designed to enhance the geometric reasoning capabilities of Large Multimodal Models (LMMs).  
+  **Tags**: #R-CoT #geometric-reasoning #multimodal-models #AI
+
 ## Applications & Implementations
 
 ### Coding & Development Tools
@@ -79,36 +112,24 @@
   **Summary**: The Qwen2.5-Coder series is an advancement over its predecessor, CodeQwen1.5, featuring six models ranging from 0.5B to 32B parameters. Built upon the Qwen2.5 architecture, these code-specific models are pretrained on a vast corpus exceeding 5.5 trillion tokens. Through meticulous data cleaning, scalable synthetic data generation, and balanced data mixing, Qwen2.5-Coder demonstrates impressive code generation capabilities while retaining general and mathematical skills. Evaluations across more than ten benchmarks—including code generation, completion, reasoning, and repair—show that Qwen2.5-Coder consistently outperforms larger models of the same size, achieving state-of-the-art performance.  
   **Tags**: #code-generation #LLM #AI #Qwen2.5-Coder
 
+### Agentic Frameworks & Task Management
+- **Agent S - Uses computers like a human**
+  **Paper**: [Link](https://paperswithcode.com/paper/agent-s-an-open-agentic-framework-that-uses)  
+  **Summary**: Agent S introduces an open agentic framework that enables AI systems to utilize computers similarly to humans, enhancing task management and execution capabilities.  
+  **Tags**: #agent #task-management #AI
+
+- **TaskGen**
+  **Paper**: [Link](https://paperswithcode.com/paper/taskgen-a-task-based-memory-infused-agentic)  
+  **Summary**: TaskGen presents a task-based, memory-infused agentic framework designed to improve AI's ability to manage and execute complex tasks efficiently.  
+  **Tags**: #agent #task-management #AI
+
 ### Document Processing
 - **Docling Technical Report**
   **Paper**: [Link](https://paperswithcode.com/paper/docling-technical-report)  
   **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements.  
   **Tags**: #document-conversion #PDF #open-source #AI
 
-### Speech & Audio
-- **TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization**
-  **Paper**: [Link](https://paperswithcode.com/paper/tangoflux-super-fast-and-faithful-text-to)  
-  **Summary**: TangoFlux is an efficient text-to-audio (TTA) generative model with 515 million parameters, capable of producing up to 30 seconds of 44.1kHz audio in just 3.7 seconds on a single A40 GPU. It introduces CLAP-Ranked Preference Optimization (CRPO), a novel framework that iteratively generates and optimizes preference data to enhance TTA alignment. TangoFlux outperforms existing TTA models in both objective and subjective evaluations, providing superior audio quality with reduced inference times.  
-  **Tags**: #text-to-audio #audio-generation #open-source #AI
 
-- **F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching**
-  **Paper**: [Link](https://paperswithcode.com/paper/f5-tts-a-fairytaler-that-fakes-fluent-and)  
-  **Summary**: F5-TTS introduces a fully non-autoregressive text-to-speech (TTS) system utilizing flow matching with a Diffusion Transformer (DiT). By padding text inputs to match the length of speech inputs and performing denoising for speech generation, it eliminates the need for complex components like duration models, text encoders, and phoneme alignment. Enhancements include the integration of ConvNeXt for refined text representation and the implementation of a Sway Sampling strategy during inference, which significantly boosts performance and efficiency.  
-  **Tags**: #text-to-speech #flow-matching #Diffusion-Transformer #AI
-
-- **Qwen2-Audio**
-  **Summary**: Qwen2-Audio is an advanced speech model designed to improve audio processing capabilities in AI systems.  
-  **Tags**: #speech #audio #AI-models
-
-- **LLaMA-Omni**
-  **Paper**: [Link](https://paperswithcode.com/paper/llama-omni-seamless-speech-interaction-with)  
-  **Summary**: LLaMA-Omni offers seamless speech interaction with large language models, enhancing real-time communication capabilities.  
-  **Tags**: #speech #audio #AI-models
-
-- **Moonshine**
-  **Paper**: [Link](https://paperswithcode.com/paper/moonshine-speech-recognition-for-live)  
-  **Summary**: This paper introduces Moonshine, a family of speech recognition models optimized for live transcription and voice command processing. Moonshine is based on an encoder-decoder transformer architecture and employs Rotary Position Embedding (RoPE) instead of traditional absolute position embeddings.  
-  **Tags**: #speech-recognition #live-transcription #voice-commands #AI
 
 ### Computer Vision
 - **Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders**
@@ -133,9 +154,22 @@
 This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments.  
   **Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
 
+
+
 ## AI Safety & Security
 
 ### Security Frameworks
+
+- **Granite Guardian**
+  **Paper**: [Link](https://paperswithcode.com/paper/granite-guardian)  
+  **Summary**: Granite Guardian introduces a suite of models designed to detect risks in prompts and responses, facilitating the safe and responsible use of large language models (LLMs). These models cover multiple risk dimensions, including social bias, profanity, violence, sexual content, unethical behavior, jailbreaking, and hallucination-related risks such as context relevance, groundedness, and answer relevance for retrieval-augmented generation (RAG). Trained on a unique dataset that combines human annotations from diverse sources with synthetic data, Granite Guardian addresses risks often overlooked by traditional detection models. It achieves AUC scores of 0.871 and 0.854 on harmful content and RAG-hallucination-related benchmarks, respectively, making it a generalizable and competitive model in this domain. The models are open-sourced to promote responsible AI development within the community. The code is available at [https://github.com/ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian).  
+  **Tags**: #risk-detection #LLM #AI-safety #open-source
+
+- **Best-of-N Jailbreaking**
+  **Paper**: [Link](https://paperswithcode.com/paper/best-of-n-jailbreaking)  
+  **Summary**: Best-of-N (BoN) Jailbreaking is a black-box algorithm designed to bypass safety measures in advanced AI systems across various modalities. It operates by generating multiple variations of a prompt through augmentations—such as random shuffling or capitalization for text prompts—until a harmful response is elicited. BoN Jailbreaking has demonstrated high attack success rates (ASRs) on closed-source language models, achieving 89% on GPT-4o and 78% on Claude 3.5 Sonnet with 10,000 augmented prompts. It is also effective against state-of-the-art open-source defenses like circuit breakers. The algorithm extends seamlessly to other modalities, successfully jailbreaking vision language models (VLMs) like GPT-4o and audio language models (ALMs) such as Gemini 1.5 Pro using modality-specific augmentations. Notably, BoN's effectiveness improves with an increased number of sampled prompts, following a power-law-like behavior across modalities. Combining BoN with other black-box algorithms, such as optimized prefix attacks, can further enhance its efficacy, achieving up to a 35% increase in ASR. This work highlights the susceptibility of language models to seemingly innocuous input modifications, which can be exploited across different modalities.  
+  **Tags**: #jailbreaking #AI-safety #black-box-attack #multi-modal-AI
+
 - **garak: A Framework for Security Probing Large Language Models**
   **Paper**: [Link](https://paperswithcode.com/paper/garak-a-framework-for-security-probing-large)  
   **Summary**: garak (Generative AI Red-teaming and Assessment Kit) is an open-source framework designed to identify vulnerabilities in large language models (LLMs) and dialogue systems. It systematically probes LLMs to uncover potential security weaknesses, providing detailed reports that inform discussions on model alignment and deployment policies.  
@@ -155,6 +189,45 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Paper**: [Link](https://arxiv.org/abs/2411.01583)
   **Summary**: This comprehensive survey examines the security and privacy challenges inherent in Federated Learning (FL). It highlights vulnerabilities in communication channels and potential cyber threats within decentralized networks. The authors discuss various defensive strategies to mitigate these risks, explore FL applications across different sectors, and propose future research directions to enhance the security and efficiency of FL systems.
   **Tags**: #federated-learning #privacy #security #decentralized-networks
+
+### Cybersecurity
+- **IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery**
+  **Paper**: [Link](https://arxiv.org/abs/2411.05442)  
+  **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats.  
+  **Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
+
+- **Analysing the Cultural Dimensions of Cybercriminal Groups: A Case Study on the Conti Ransomware Group**
+  **Paper**: [Link](https://arxiv.org/abs/2411.02548)  
+  **Summary**: This study explores the cultural aspects of cybercriminal organizations, focusing on the Conti ransomware group. By analyzing leaked internal communications, the authors apply Hofstede's and Meyer's cultural dimension frameworks to understand the group's operational behaviors.  
+  **Tags**: #cybersecurity #cultural-analysis #threat-intelligence #ransomware
+
+### Deepfake & Anomaly Detection
+- **Capture Artifacts for Deepfake Detection**
+  **Paper**: [Link](https://paperswithcode.com/paper/capture-artifacts-via-progressive)  
+  **Summary**: This research introduces a method for detecting deepfakes by progressively disentangling and purifying blended identities, improving detection accuracy.  
+  **Tags**: #deepfake #detection #AI
+
+- **AnomalyNCD**
+  **Paper**: [Link](https://paperswithcode.com/paper/anomalyncd-towards-novel-anomaly-class)  
+  **Summary**: AnomalyNCD proposes a novel approach to anomaly detection, focusing on identifying new anomaly classes in AI systems.  
+  **Tags**: #anomaly-detection #AI
+
+- **FairAdapter**
+  **Paper**: [Link](https://paperswithcode.com/paper/fairadapter-detecting-ai-generated-images)  
+  **Summary**: FairAdapter addresses the challenge of detecting AI-generated images, which often exhibit inconsistencies across different content types due to overfitting in existing detection models. This framework enhances detection fairness by mitigating performance disparities across various image contents.  
+  **Tags**: #AI-generated-images #detection-fairness #deep-learning #image-forensics
+
+### Poisoning Attacks
+
+- **NoiseAttack**
+  **Paper**: [Link](https://paperswithcode.com/paper/noiseattack-an-evasive-sample-specific-multi)  
+  **Summary**: NoiseAttack discusses an evasive, sample-specific multi-domain attack strategy, highlighting vulnerabilities in AI systems.  
+  **Tags**: #poisoning #security #AI
+
+-**CodeBreaker**
+  **Paper**: [Link](https://paperswithcode.com/paper/an-llm-assisted-easy-to-trigger-backdoor)  
+  **Summary**: CodeBreaker presents an LLM-assisted, easy-to-trigger backdoor attack, emphasizing the need for robust security measures in AI.  
+  **Tags**: #poisoning #security #AI
 
 ### Detection & Monitoring
 - **Human intelligence can safeguard against artificial intelligence**
@@ -195,6 +268,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #LLM #AI-evaluation #survey #AI
 
 ## AI Enhancement Technologies
+
+### Response Filtering
+
+- **O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?**
+  **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
+  **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
+  **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
 
 ### Retrieval & Augmentation
 - **Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models**
@@ -342,53 +422,37 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks.  
   **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
 
-## Additional Categories (Not in Original Template)
+## Audio, Image & Video
 
-### Agentic Frameworks & Task Management
-- **Agent S - Uses computers like a human**
-  **Paper**: [Link](https://paperswithcode.com/paper/agent-s-an-open-agentic-framework-that-uses)  
-  **Summary**: Agent S introduces an open agentic framework that enables AI systems to utilize computers similarly to humans, enhancing task management and execution capabilities.  
-  **Tags**: #agent #task-management #AI
+### Image Generation
 
-- **TaskGen**
-  **Paper**: [Link](https://paperswithcode.com/paper/taskgen-a-task-based-memory-infused-agentic)  
-  **Summary**: TaskGen presents a task-based, memory-infused agentic framework designed to improve AI's ability to manage and execute complex tasks efficiently.  
-  **Tags**: #agent #task-management #AI
+### Speech & Audio
+- **TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization**
+  **Paper**: [Link](https://paperswithcode.com/paper/tangoflux-super-fast-and-faithful-text-to)  
+  **Summary**: TangoFlux is an efficient text-to-audio (TTA) generative model with 515 million parameters, capable of producing up to 30 seconds of 44.1kHz audio in just 3.7 seconds on a single A40 GPU. It introduces CLAP-Ranked Preference Optimization (CRPO), a novel framework that iteratively generates and optimizes preference data to enhance TTA alignment. TangoFlux outperforms existing TTA models in both objective and subjective evaluations, providing superior audio quality with reduced inference times.  
+  **Tags**: #text-to-audio #audio-generation #open-source #AI
 
-### Deepfake & Anomaly Detection
-- **Capture Artifacts for Deepfake Detection**
-  **Paper**: [Link](https://paperswithcode.com/paper/capture-artifacts-via-progressive)  
-  **Summary**: This research introduces a method for detecting deepfakes by progressively disentangling and purifying blended identities, improving detection accuracy.  
-  **Tags**: #deepfake #detection #AI
+- **F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching**
+  **Paper**: [Link](https://paperswithcode.com/paper/f5-tts-a-fairytaler-that-fakes-fluent-and)  
+  **Summary**: F5-TTS introduces a fully non-autoregressive text-to-speech (TTS) system utilizing flow matching with a Diffusion Transformer (DiT). By padding text inputs to match the length of speech inputs and performing denoising for speech generation, it eliminates the need for complex components like duration models, text encoders, and phoneme alignment. Enhancements include the integration of ConvNeXt for refined text representation and the implementation of a Sway Sampling strategy during inference, which significantly boosts performance and efficiency.  
+  **Tags**: #text-to-speech #flow-matching #Diffusion-Transformer #AI
 
-- **AnomalyNCD**
-  **Paper**: [Link](https://paperswithcode.com/paper/anomalyncd-towards-novel-anomaly-class)  
-  **Summary**: AnomalyNCD proposes a novel approach to anomaly detection, focusing on identifying new anomaly classes in AI systems.  
-  **Tags**: #anomaly-detection #AI
+- **Qwen2-Audio**
+  **Summary**: Qwen2-Audio is an advanced speech model designed to improve audio processing capabilities in AI systems.  
+  **Tags**: #speech #audio #AI-models
 
-- **FairAdapter**
-  **Paper**: [Link](https://paperswithcode.com/paper/fairadapter-detecting-ai-generated-images)  
-  **Summary**: FairAdapter addresses the challenge of detecting AI-generated images, which often exhibit inconsistencies across different content types due to overfitting in existing detection models. This framework enhances detection fairness by mitigating performance disparities across various image contents.  
-  **Tags**: #AI-generated-images #detection-fairness #deep-learning #image-forensics
+- **LLaMA-Omni**
+  **Paper**: [Link](https://paperswithcode.com/paper/llama-omni-seamless-speech-interaction-with)  
+  **Summary**: LLaMA-Omni offers seamless speech interaction with large language models, enhancing real-time communication capabilities.  
+  **Tags**: #speech #audio #AI-models
 
-### Spatial Reasoning
-- **Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces**
-  **Paper**: [Link](https://paperswithcode.com/paper/thinking-in-space-how-multimodal-large)  
-  **Summary**: This paper investigates whether Multimodal Large Language Models (MLLMs), trained on extensive video datasets, can develop visual-spatial intelligence akin to humans. The authors introduce VSI-Bench, a novel benchmark comprising over 5,000 question-answer pairs designed to assess video-based visual-spatial intelligence.  
-  **Tags**: #MLLM #visual-spatial-intelligence #VSI-Bench #cognitive-maps
+- **Moonshine**
+  **Paper**: [Link](https://paperswithcode.com/paper/moonshine-speech-recognition-for-live)  
+  **Summary**: This paper introduces Moonshine, a family of speech recognition models optimized for live transcription and voice command processing. Moonshine is based on an encoder-decoder transformer architecture and employs Rotary Position Embedding (RoPE) instead of traditional absolute position embeddings.  
+  **Tags**: #speech-recognition #live-transcription #voice-commands #AI
 
-### Cybersecurity
-- **IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery**
-  **Paper**: [Link](https://arxiv.org/abs/2411.05442)  
-  **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats.  
-  **Tags**: #cybersecurity #chatbot #LLM #RAG #threat-intelligence
+### Video Generation
 
-- **Analysing the Cultural Dimensions of Cybercriminal Groups: A Case Study on the Conti Ransomware Group**
-  **Paper**: [Link](https://arxiv.org/abs/2411.02548)  
-  **Summary**: This study explores the cultural aspects of cybercriminal organizations, focusing on the Conti ransomware group. By analyzing leaked internal communications, the authors apply Hofstede's and Meyer's cultural dimension frameworks to understand the group's operational behaviors.  
-  **Tags**: #cybersecurity #cultural-analysis #threat-intelligence #ransomware
-
-### Image Animation
 - **SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints**
   **Paper**: [Link](https://paperswithcode.com/paper/syncammaster-synchronizing-multi-camera-video)  
   **Summary**: SynCamMaster introduces a plug-and-play module that enhances pre-trained text-to-video models for generating synchronized multi-camera videos from diverse viewpoints. It incorporates a multi-view synchronization module to maintain appearance and geometry consistency across different camera angles.  
@@ -414,14 +478,14 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper introduces Hallo2, an advanced method for generating long-duration, high-resolution portrait image animations driven by audio inputs. The approach addresses challenges like appearance drift and temporal artifacts by implementing augmentation strategies within the image space of conditional motion frames.  
   **Tags**: #image-animation #audio-driven #high-resolution #long-duration
 
-### Long Context Models
-- **LongWriter**
-  **Paper**: [Link](https://paperswithcode.com/paper/longwriter-unleashing-10000-word-generation)  
-  **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that struggle to generate outputs exceeding 2,000 words. The authors introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words.  
-  **Tags**: #long-context #LLM #text-generation #AI
 
-### Cache & Memory Optimization
-- **Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks**
-  **Paper**: [Link](https://paperswithcode.com/paper/don-t-do-rag-when-cache-augmented-generation)  
-  **Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference.  
-  **Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
+
+
+
+
+
+
+
+
+
+
