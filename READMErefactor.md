@@ -409,7 +409,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: SWIFT provides scalable, lightweight infrastructure for efficient LLM deployment, designed to minimize resource consumption.  
   **Tags**: #open-source #infrastructure #AI
 
-## 8. Multimedia Processing
+## 6. Multimedia Processing
 
 ### Speech & Audio
 - **TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization**
