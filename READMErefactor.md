@@ -1,4 +1,58 @@
-# Research Papers & Resources
+# Table of Contents
+
+## 1. Core AI Technologies
+- Language Models & Architecture
+- Multimodal Models
+- Training & Optimization
+- Memory & Attention Mechanisms
+- Cache & Memory Optimization
+- Long Context Models
+- Spatial Reasoning
+
+## 2. AI Enhancement Technologies
+- Performance Optimization
+- Retrieval & Augmentation
+- Hallucination Reduction
+- Response Filtering
+
+## 3. Applications & Implementations
+- Coding & Development Tools
+- Agentic Frameworks & Task Management
+- Document Processing
+- Computer Vision
+- Robotics & Automation
+
+## 4. AI Safety & Security
+- Security Frameworks
+- Cybersecurity
+- Detection & Monitoring
+- Deepfake & Anomaly Detection
+- Poisoning Attacks
+- Bias & Fairness
+- Privacy & Ethics
+
+## 5. Development Tools & Infrastructure
+- Testing & Benchmarking
+- User Interface & Interaction
+- Infrastructure & Scaling
+
+## 6. Multimedia Processing
+- Image Generation
+- Speech & Audio
+- Video Generation
+
+## 7. Specialized Applications
+- Financial Technology
+- Gaming & Simulation
+- Scientific Applications
+
+## 8. Educational Resources
+- Tutorials & Guides
+- Best Practices
+
+## 9. Environmental Impact
+- Energy Efficiency
+
 
 ## Core AI Technologies
 
@@ -61,18 +115,6 @@
   **Summary**: Hot-DoG introduces a tuning-free coreset approach for Markov Chain Monte Carlo methods, enhancing optimization efficiency in AI models.  
   **Tags**: #optimization #bayesian-optimization #frameworks
 
-### Long Context Models
-- **LongWriter**
-  **Paper**: [Link](https://paperswithcode.com/paper/longwriter-unleashing-10000-word-generation)  
-  **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that struggle to generate outputs exceeding 2,000 words. The authors introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words.  
-  **Tags**: #long-context #LLM #text-generation #AI
-
-### Cache & Memory Optimization
-- **Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks**
-  **Paper**: [Link](https://paperswithcode.com/paper/don-t-do-rag-when-cache-augmented-generation)  
-  **Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference.  
-  **Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
-
 ### Memory & Attention Mechanisms
 - **An Evolved Universal Transformer Memory**
   **Paper**: [Link](https://paperswithcode.com/paper/an-evolved-universal-transformer-memory)  
@@ -94,6 +136,18 @@
   **Summary**: RESOLVE introduces a neuro-vector symbolic architecture that integrates object-level features with relational representations in high-dimensional spaces. Utilizing operations like bundling (summation) and binding (Hadamard product), it enables the coexistence of object-level and relational information without interference. The model features a novel attention mechanism operating in a bipolar high-dimensional space, facilitating efficient attention score computation. RESOLVE demonstrates improved generalizability and accuracy in tasks requiring both pure and partial relational reasoning, such as sorting and mathematical problem-solving, compared to existing methods.   
   **Tags**: #relational-reasoning #vector-symbolic-processing #neuro-symbolic-AI #AI
 
+### Cache & Memory Optimization
+- **Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks**
+  **Paper**: [Link](https://paperswithcode.com/paper/don-t-do-rag-when-cache-augmented-generation)  
+  **Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference.  
+  **Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
+
+### Long Context Models
+- **LongWriter**
+  **Paper**: [Link](https://paperswithcode.com/paper/longwriter-unleashing-10000-word-generation)  
+  **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that struggle to generate outputs exceeding 2,000 words. The authors introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words.  
+  **Tags**: #long-context #LLM #text-generation #AI
+
 ### Spatial Reasoning
 - **Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces**
   **Paper**: [Link](https://paperswithcode.com/paper/thinking-in-space-how-multimodal-large)  
@@ -104,6 +158,53 @@
   **Paper**: [Link](https://paperswithcode.com/paper/r-cot-reverse-chain-of-thought-problem)  
   **Summary**: This paper introduces R-CoT, a two-stage Reverse Chain-of-Thought geometry problem generation pipeline designed to enhance the geometric reasoning capabilities of Large Multimodal Models (LMMs).  
   **Tags**: #R-CoT #geometric-reasoning #multimodal-models #AI
+
+## AI Enhancement Technologies
+
+### Response Filtering
+
+- **O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?**
+  **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
+  **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
+  **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
+
+### Retrieval & Augmentation
+- **Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models**
+  **Paper**: [Link](https://paperswithcode.com/paper/auto-rag-autonomous-retrieval-augmented)  
+  **Summary**: Auto-RAG introduces an autonomous iterative retrieval model that leverages the decision-making capabilities of Large Language Models (LLMs) to enhance Retrieval-Augmented Generation (RAG). Unlike traditional methods that rely on few-shot prompting or manually constructed rules, Auto-RAG enables LLMs to engage in multi-turn dialogues with retrievers, systematically planning retrievals and refining queries to acquire valuable knowledge.  
+  **Tags**: #Retrieval-Augmented-Generation #LLM #iterative-retrieval #AI
+
+- **MemoRAG**
+  **Paper**: [Link](https://paperswithcode.com/paper/memorag-moving-towards-next-gen-rag-via)  
+  **Summary**: MemoRAG explores advanced techniques in retrieval-augmented generation for more effective information synthesis in AI systems.  
+  **Tags**: #RAG #retrieval #AI
+
+- **KAG**
+  **Paper**: [Link](https://paperswithcode.com/paper/2409-13731)  
+  **Summary**: This paper explores Knowledge Augmented Generation (KAG) as a method to enhance large language models (LLMs) for specific professional domains, focusing on the integration of domain-specific knowledge to improve accuracy and relevance in outputs.  
+  **Tags**: #KAG #knowledge-augmentation #professional-domains #AI
+
+### Hallucination Reduction
+- **Prereq-Tune**
+  **Paper**: [Link](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)  
+  **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.  
+  **Tags**: #hallucination #factuality #AI
+
+- **DecoPrompt: Decoding Prompts Reduces Hallucinations when Large Language Models Meet False Premises**
+  **Paper**: [Link](https://paperswithcode.com/paper/decoprompt-decoding-prompts-reduces)  
+  **Summary**: DecoPrompt addresses the issue of hallucinations in large language models (LLMs) when confronted with false premises. The method leverages LLMs to "decode" misleading prompts without generating hallucinated outputs, effectively reducing inaccuracies.  
+  **Tags**: #hallucination-reduction #LLM #false-premises #AI
+
+### Performance Optimization
+- **Breaking the Low-Rank Dilemma of Linear Attention**
+  **Paper**: [Link](https://paperswithcode.com/paper/breaking-the-low-rank-dilemma-of-linear)  
+  **Summary**: This paper addresses the computational inefficiencies of the Softmax attention mechanism in Transformer models, particularly its quadratic complexity in vision applications. It introduces Rank-Augmented Linear Attention (RALA), which enhances the rank of linear attention's feature map, enabling it to model complex spatial information more effectively.  
+  **Tags**: #linear-attention #transformer #vision-models #RALA #RAVLT
+
+- **LoLCATs: On Low-Rank Linearizing of Large Language Models**
+  **Paper**: [Link](https://arxiv.org/abs/2410.10254)  
+  **Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors.  
+  **Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
 ## Applications & Implementations
 
@@ -273,52 +374,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper provides a comprehensive survey of the emerging "LLM-as-a-judge" paradigm, where Large Language Models (LLMs) are utilized for scoring, ranking, or selection across various tasks and applications. It introduces a detailed taxonomy exploring three dimensions: what to judge, how to judge, and where to judge.  
   **Tags**: #LLM #AI-evaluation #survey #AI
 
-## AI Enhancement Technologies
 
-### Response Filtering
-
-- **O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?**
-  **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
-  **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
-  **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
-
-### Retrieval & Augmentation
-- **Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models**
-  **Paper**: [Link](https://paperswithcode.com/paper/auto-rag-autonomous-retrieval-augmented)  
-  **Summary**: Auto-RAG introduces an autonomous iterative retrieval model that leverages the decision-making capabilities of Large Language Models (LLMs) to enhance Retrieval-Augmented Generation (RAG). Unlike traditional methods that rely on few-shot prompting or manually constructed rules, Auto-RAG enables LLMs to engage in multi-turn dialogues with retrievers, systematically planning retrievals and refining queries to acquire valuable knowledge.  
-  **Tags**: #Retrieval-Augmented-Generation #LLM #iterative-retrieval #AI
-
-- **MemoRAG**
-  **Paper**: [Link](https://paperswithcode.com/paper/memorag-moving-towards-next-gen-rag-via)  
-  **Summary**: MemoRAG explores advanced techniques in retrieval-augmented generation for more effective information synthesis in AI systems.  
-  **Tags**: #RAG #retrieval #AI
-
-- **KAG**
-  **Paper**: [Link](https://paperswithcode.com/paper/2409-13731)  
-  **Summary**: This paper explores Knowledge Augmented Generation (KAG) as a method to enhance large language models (LLMs) for specific professional domains, focusing on the integration of domain-specific knowledge to improve accuracy and relevance in outputs.  
-  **Tags**: #KAG #knowledge-augmentation #professional-domains #AI
-
-### Hallucination Reduction
-- **Prereq-Tune**
-  **Paper**: [Link](https://paperswithcode.com/paper/fictitious-synthetic-data-can-improve-llm)  
-  **Summary**: Prereq-Tune utilizes synthetic data to reduce hallucination in large language models, enhancing factual accuracy.  
-  **Tags**: #hallucination #factuality #AI
-
-- **DecoPrompt: Decoding Prompts Reduces Hallucinations when Large Language Models Meet False Premises**
-  **Paper**: [Link](https://paperswithcode.com/paper/decoprompt-decoding-prompts-reduces)  
-  **Summary**: DecoPrompt addresses the issue of hallucinations in large language models (LLMs) when confronted with false premises. The method leverages LLMs to "decode" misleading prompts without generating hallucinated outputs, effectively reducing inaccuracies.  
-  **Tags**: #hallucination-reduction #LLM #false-premises #AI
-
-### Performance Optimization
-- **Breaking the Low-Rank Dilemma of Linear Attention**
-  **Paper**: [Link](https://paperswithcode.com/paper/breaking-the-low-rank-dilemma-of-linear)  
-  **Summary**: This paper addresses the computational inefficiencies of the Softmax attention mechanism in Transformer models, particularly its quadratic complexity in vision applications. It introduces Rank-Augmented Linear Attention (RALA), which enhances the rank of linear attention's feature map, enabling it to model complex spatial information more effectively.  
-  **Tags**: #linear-attention #transformer #vision-models #RALA #RAVLT
-
-- **LoLCATs: On Low-Rank Linearizing of Large Language Models**
-  **Paper**: [Link](https://arxiv.org/abs/2410.10254)  
-  **Summary**: This paper introduces LoLCATs (Low-rank Linear Conversion via Attention Transfer), a method designed to enhance the efficiency of large language models (LLMs) by replacing their quadratic attention mechanisms with subquadratic linear attentions. The approach involves two key steps: training linear attentions to approximate the outputs of softmax attentions through attention transfer, and then applying low-rank adaptation (LoRA) to adjust for any approximation errors.  
-  **Tags**: #linear-attention #LLM #LoRA #model-efficiency
 
 ## Development Tools & Infrastructure
 
@@ -424,7 +480,7 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This study compares the carbon emissions associated with writing and illustrating tasks performed by AI systems versus humans. The findings indicate that AI systems produce significantly lower carbon emissions for these creative tasks.  
   **Tags**: #carbon-emissions #AI-efficiency #environment #sustainability
 
-## Audio, Image & Video
+## Multimedia Processing
 
 ### Image Generation
 
