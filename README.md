@@ -118,6 +118,12 @@
   **Tags**: #optimization #bayesian-optimization #frameworks
 
 ### Memory & Attention Mechanisms
+
+- **Superposition in Transformers: A Novel Way of Building Mixture of Experts**
+  **Paper**: [Link](https://paperswithcode.com/paper/superposition-in-transformers-a-novel-way-of)  
+  **Summary**: This paper addresses the challenge of catastrophic forgetting in large language models (LLMs) when adapting to new tasks or domains. The authors introduce a novel architecture that employs autoencoders to superimpose hidden representations of a base model and a fine-tuned model within a shared parameter space. By utilizing B-spline-based blending coefficients and adaptive autoencoders, this method effectively mitigates catastrophic forgetting, allowing the model to retain original capabilities while incorporating domain-specific expertise. Additionally, it supports dynamic switching between model states during inference, enhancing flexibility and performance.  
+  **Tags**: #transformers #superposition #mixture-of-experts #catastrophic-forgetting #AI
+
 - **An Evolved Universal Transformer Memory**
   **Paper**: [Link](https://paperswithcode.com/paper/an-evolved-universal-transformer-memory)  
   **Summary**: This paper introduces Neural Attention Memory Models (NAMMs), a learned network for memory management that enhances both the performance and efficiency of transformers. NAMMs provide distinct latent contexts, focusing on the most relevant information for individual layers and attention heads. They condition exclusively on the values in the produced attention matrices, making them universally applicable to any model utilizing self-attention. Training NAMMs on a small set of problems yields significant performance improvements across multiple long-context benchmarks while reducing the model's input contexts to a fraction of their original sizes.  
