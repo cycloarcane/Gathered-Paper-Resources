@@ -23,6 +23,7 @@
 - Document Processing
 - Computer Vision
 - Robotics & Automation
+- Text Analysis & Social Media Tools
 
 ## [4. AI Safety & Security](#ai-safety-and-security)
 - Security Frameworks
@@ -244,8 +245,6 @@
   **Summary**: This technical report introduces Docling, an open-source, MIT-licensed package designed for efficient PDF document conversion. Leveraging advanced AI models like DocLayNet for layout analysis and TableFormer for table structure recognition, Docling operates effectively on standard hardware with minimal resource requirements.  
   **Tags**: #document-conversion #PDF #open-source #AI
 
-
-
 ### Computer Vision
 - **Gaze-LLE: Gaze Target Estimation via Large-Scale Learned Encoders**
   **Paper**: [Link](https://paperswithcode.com/paper/gaze-lle-gaze-target-estimation-via-large)  
@@ -268,6 +267,13 @@
 
 This design facilitates dynamic task decomposition and skill arrangement, allowing robots to effectively perform new tasks by routing through the skill matrix. Experimental results demonstrate that RoboMatrix achieves remarkable generalization across novel objects, scenes, tasks, and embodiments.  
   **Tags**: #robotics #task-planning #hierarchical-framework #meta-skills
+
+### Text Analysis & Social Media Tools
+- **SocialED: A Python Library for Social Event Detection**  
+  **Paper**: [Link](https://paperswithcode.com/paper/socialed-a-python-library-for-social-event)  
+  **Summary**: SocialED is an open-source Python library designed to support social event detection (SED) tasks. It integrates 19 detection algorithms and 14 diverse datasets, providing a unified API with detailed documentation. The library offers modular components for preprocessing techniques like graph construction and tokenization, and includes standardized interfaces for training models and making predictions. By integrating popular deep learning frameworks, SocialED ensures high efficiency and scalability across both CPU and GPU environments. It adheres to high code quality standards, including unit testing and continuous integration, ensuring robust and maintainable software. SocialED is publicly available at [https://github.com/RingBDStack/SocialED](https://github.com/RingBDStack/SocialED) and can be installed via PyPI.  
+  **Tags**: #python #social-event-detection #open-source #AI #library
+
 
 # AI Safety and Security
 
