@@ -86,6 +86,12 @@
   **Tags**: #MoE #transformer #open-source #AI
 
 ### Multimodal Models
+
+- **VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction**  
+  **Paper**: [Link](https://paperswithcode.com/paper/vita-1-5-towards-gpt-4o-level-real-time)  
+  **Summary**: This paper introduces VITA-1.5, a Multimodal Large Language Model (MLLM) designed to integrate visual and speech modalities for real-time interaction. The authors propose a multi-stage training methodology that enables the model to understand both visual and speech information, facilitating efficient speech-to-speech dialogues without relying on separate Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) modules. This integration accelerates multimodal end-to-end response speed and enhances the model's capabilities in both vision and speech tasks. Comparative evaluations across benchmarks for image, video, and speech tasks demonstrate that VITA-1.5 achieves performance comparable to state-of-the-art models, enabling near real-time vision and speech interaction.  
+  **Tags**: #multimodal #vision-and-speech #real-time-interaction #AI #MLLM
+
 - **Aria**
   **Paper**: [Link](https://paperswithcode.com/paper/aria-an-open-multimodal-native-mixture-of)  
   **Summary**: Aria is an open multimodal-native mixture of experts model designed to handle diverse data types, enhancing AI's multimodal processing capabilities.  
