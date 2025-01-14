@@ -11,6 +11,7 @@
 - Cache & Memory Optimization
 - Long Context Models
 - Spatial Reasoning
+- World Modeling Platforms
 
 ## [2. AI Enhancement Technologies](#ai-enhancement-technologies)
 - Performance Optimization
@@ -174,6 +175,14 @@
   **Paper**: [Link](https://paperswithcode.com/paper/r-cot-reverse-chain-of-thought-problem)  
   **Summary**: This paper introduces R-CoT, a two-stage Reverse Chain-of-Thought geometry problem generation pipeline designed to enhance the geometric reasoning capabilities of Large Multimodal Models (LMMs).  
   **Tags**: #R-CoT #geometric-reasoning #multimodal-models #AI
+
+### World Modeling Platforms
+
+- **Cosmos World Foundation Model Platform for Physical AI**  
+  **Paper**: [Link](https://paperswithcode.com/paper/cosmos-world-foundation-model-platform-for)  
+  **Summary**: This paper introduces the Cosmos World Foundation Model Platform, designed to assist developers in creating customized world models for Physical AI systems. The platform offers a general-purpose world foundation model that can be fine-tuned for specific applications, facilitating the development of digital twins for both the AI agent and its environment. Key components include a video curation pipeline, pre-trained world foundation models, post-training examples, and video tokenizers. The platform is open-source, with models available under permissive licenses at [https://github.com/NVIDIA/Cosmos](https://github.com/NVIDIA/Cosmos).  
+  **Tags**: #world-modeling #physical-ai #digital-twin #open-source #AI
+
 
 # AI Enhancement Technologies
 
