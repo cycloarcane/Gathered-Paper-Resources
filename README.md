@@ -268,6 +268,12 @@
   **Tags**: #gaze-estimation #transformer #DINOv2 #AI
 
 ### Robotics & Automation
+
+- **ROLO-SLAM: Rotation-Optimized LiDAR-Only SLAM in Uneven Terrain with Ground Vehicle**  
+  **Paper**: [Link](https://paperswithcode.com/paper/rolo-slam-rotation-optimized-lidar-only-slam)  
+  **Summary**: This paper introduces ROLO-SLAM, a LiDAR-based SLAM method designed to enhance pose estimation accuracy for ground vehicles navigating rough terrains. Traditional LiDAR-based SLAM systems often experience significant pose estimation drifts, especially in the vertical direction, leading to distorted global maps. ROLO-SLAM addresses this issue by implementing forward location prediction to reduce discrepancies between consecutive scans, enabling precise determination of position and orientation. The method employs parallel spatial voxelization for correspondence matching and develops a spherical alignment-guided rotation registration within each voxel to estimate vehicle rotation. By incorporating geometric alignment and motion constraints into the optimization process, ROLO-SLAM achieves rapid and effective translation estimation. Keyframes are extracted to construct submaps, facilitating accurate pose estimation through scan-to-submap alignment. A global-scale factor graph is also established to mitigate cumulative errors. Experimental results demonstrate that ROLO-SLAM outperforms existing state-of-the-art LiDAR SLAM frameworks in pose estimation for ground vehicles.  
+  **Tags**: #LiDAR #SLAM #pose-estimation #robotics #AI
+
 - **OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving**
   **Paper**: [Link](https://paperswithcode.com/paper/openemma-open-source-multimodal-model-for-end)  
   **Summary**: OpenEMMA is an open-source end-to-end framework that leverages Multimodal Large Language Models (MLLMs) to enhance autonomous driving systems. By incorporating Chain-of-Thought reasoning processes, OpenEMMA improves performance across various challenging driving scenarios, offering a more efficient and effective approach to autonomous driving.  
