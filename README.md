@@ -128,6 +128,11 @@
 
 ### Memory & Attention Mechanisms
 
+- **Lifelong Learning of Large Language Model based Agents: A Roadmap**  
+  **Paper**: [Link](https://paperswithcode.com/paper/lifelong-learning-of-large-language-model)  
+  **Summary**: This survey explores the integration of lifelong learning—also known as continual or incremental learning—into large language model (LLM)-based agents. It identifies three core components essential for enabling continuous adaptation: the perception module for multimodal input integration, the memory module for storing and retrieving evolving knowledge, and the action module for interacting with dynamic environments. The paper discusses strategies to mitigate catastrophic forgetting and enhance long-term performance, providing a comprehensive roadmap for developing LLM agents capable of adapting over time. Additional resources and literature are available at [https://github.com/qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent).  
+  **Tags**: #lifelong-learning #LLM #continual-learning #AI #survey
+
 - **Superposition in Transformers: A Novel Way of Building Mixture of Experts**
   **Paper**: [Link](https://paperswithcode.com/paper/superposition-in-transformers-a-novel-way-of)  
   **Summary**: This paper addresses the challenge of catastrophic forgetting in large language models (LLMs) when adapting to new tasks or domains. The authors introduce a novel architecture that employs autoencoders to superimpose hidden representations of a base model and a fine-tuned model within a shared parameter space. By utilizing B-spline-based blending coefficients and adaptive autoencoders, this method effectively mitigates catastrophic forgetting, allowing the model to retain original capabilities while incorporating domain-specific expertise. Additionally, it supports dynamic switching between model states during inference, enhancing flexibility and performance.  
