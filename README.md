@@ -199,6 +199,12 @@
   **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
 
 ### Retrieval & Augmentation
+
+- **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**  
+  **Paper**: [Link](https://paperswithcode.com/paper/minirag-towards-extremely-simple-retrieval)  
+  **Summary**: This paper introduces MiniRAG, a novel Retrieval-Augmented Generation (RAG) system designed for efficiency and simplicity, particularly when deploying Small Language Models (SLMs). MiniRAG addresses performance degradation issues in existing RAG frameworks by implementing two key innovations: (1) a semantic-aware heterogeneous graph indexing mechanism that unifies text chunks and named entities, reducing dependence on complex semantic understanding; and (2) a lightweight topology-enhanced retrieval approach that leverages graph structures for efficient knowledge discovery without requiring advanced language capabilities. Experiments demonstrate that MiniRAG achieves performance comparable to Large Language Model (LLM)-based methods while using only 25% of the storage space. The implementation and datasets are open-sourced at [https://github.com/HKUDS/MiniRAG](https://github.com/HKUDS/MiniRAG).  
+  **Tags**: #RAG #retrieval-augmented-generation #small-language-models #efficiency #AI
+
 - **Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models**
   **Paper**: [Link](https://paperswithcode.com/paper/auto-rag-autonomous-retrieval-augmented)  
   **Summary**: Auto-RAG introduces an autonomous iterative retrieval model that leverages the decision-making capabilities of Large Language Models (LLMs) to enhance Retrieval-Augmented Generation (RAG). Unlike traditional methods that rely on few-shot prompting or manually constructed rules, Auto-RAG enables LLMs to engage in multi-turn dialogues with retrievers, systematically planning retrievals and refining queries to acquire valuable knowledge.  
