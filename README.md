@@ -128,6 +128,11 @@
 
 ### Memory & Attention Mechanisms
 
+- **Titans: Learning to Memorize at Test Time**  
+  **Paper**: [Link](https://arxiv.org/abs/2501.00663)  
+  **Summary**: This paper introduces Titans, a novel neural architecture that combines attention mechanisms with a neural long-term memory module to address the limitations of traditional Transformers in handling long sequences. While attention mechanisms function effectively as short-term memory by capturing direct dependencies within a fixed context window, they struggle with scalability due to quadratic time and memory complexity. Titans overcome this by incorporating a neural long-term memory module capable of memorizing historical context, thus enabling the model to utilize information from both recent and distant past efficiently. The proposed architecture supports fast, parallelizable training and inference. Experimental results demonstrate that Titans outperform traditional Transformers and modern linear recurrent models across various tasks, including language modeling, common-sense reasoning, genomics, and time series analysis. Notably, Titans can effectively scale to context window sizes exceeding 2 million tokens, maintaining high accuracy in scenarios requiring retrieval of specific information from vast data sequences.  
+  **Tags**: #transformers #long-term-memory #sequence-modeling #AI #Titans
+
 - **Lifelong Learning of Large Language Model based Agents: A Roadmap**  
   **Paper**: [Link](https://paperswithcode.com/paper/lifelong-learning-of-large-language-model)  
   **Summary**: This survey explores the integration of lifelong learning—also known as continual or incremental learning—into large language model (LLM)-based agents. It identifies three core components essential for enabling continuous adaptation: the perception module for multimodal input integration, the memory module for storing and retrieving evolving knowledge, and the action module for interacting with dynamic environments. The paper discusses strategies to mitigate catastrophic forgetting and enhance long-term performance, providing a comprehensive roadmap for developing LLM agents capable of adapting over time. Additional resources and literature are available at [https://github.com/qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent).  
