@@ -128,6 +128,12 @@
 
 ### Memory & Attention Mechanisms
 
+- **Transformer^2: Self-adaptive LLMs**  
+  **Paper**: [Link](https://paperswithcode.com/paper/text-transformer-2-self-adaptive-llms)  
+  **Summary**: This paper introduces $\text{Transformer}^2$, a self-adaptation framework designed to enable large language models (LLMs) to adapt to unseen tasks in real-time. The approach selectively adjusts the singular components of the models' weight matrices, allowing for efficient and dynamic task-specific behavior without extensive fine-tuning. During inference, a two-pass mechanism is employed: a dispatch system first identifies the task properties, and then task-specific "expert" vectors, trained via reinforcement learning, are dynamically combined to tailor the model's responses. This method outperforms traditional approaches like LoRA in both parameter efficiency and adaptability. Moreover, $\text{Transformer}^2$ demonstrates versatility across various LLM architectures and modalities, including vision-language tasks, marking a significant advancement toward dynamic, self-organizing AI systems.  
+  **Tags**: #self-adaptive-LLMs #real-time-adaptation #reinforcement-learning #AI
+
+
 - **Titans: Learning to Memorize at Test Time**  
   **Paper**: [Link](https://arxiv.org/abs/2501.00663)  
   **Summary**: This paper introduces Titans, a novel neural architecture that combines attention mechanisms with a neural long-term memory module to address the limitations of traditional Transformers in handling long sequences. While attention mechanisms function effectively as short-term memory by capturing direct dependencies within a fixed context window, they struggle with scalability due to quadratic time and memory complexity. Titans overcome this by incorporating a neural long-term memory module capable of memorizing historical context, thus enabling the model to utilize information from both recent and distant past efficiently. The proposed architecture supports fast, parallelizable training and inference. Experimental results demonstrate that Titans outperform traditional Transformers and modern linear recurrent models across various tasks, including language modeling, common-sense reasoning, genomics, and time series analysis. Notably, Titans can effectively scale to context window sizes exceeding 2 million tokens, maintaining high accuracy in scenarios requiring retrieval of specific information from vast data sequences.  
