@@ -89,6 +89,11 @@
 
 ### Multimodal Models
 
+- **LlamaV-o1: Rethinking Step-by-Step Visual Reasoning in LLMs**  
+  **Paper**: [Link](https://paperswithcode.com/paper/llamav-o1-rethinking-step-by-step-visual)  
+  **Summary**: This paper introduces LlamaV-o1, a multimodal visual reasoning model designed to enhance step-by-step problem-solving capabilities in large language models (LLMs). The authors present a comprehensive framework comprising three key contributions: (1) a visual reasoning benchmark with over 4,000 reasoning steps across eight categories, ranging from complex visual perception to scientific reasoning; (2) a novel metric that evaluates visual reasoning quality at the granularity of individual steps, emphasizing both correctness and logical coherence; and (3) a multi-step curriculum learning approach that progressively organizes tasks to facilitate incremental skill acquisition and problem-solving. Extensive experiments demonstrate that LlamaV-o1 outperforms existing open-source models and performs favorably against closed-source proprietary models, achieving an average score of 67.3 with an absolute gain of 3.8% across six benchmarks compared to the recent Llava-CoT, while being five times faster during inference scaling. The benchmark, model, and code are publicly available.  
+  **Tags**: #visual-reasoning #multimodal #LLMs #curriculum-learning #AI
+
 - **VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction**  
   **Paper**: [Link](https://paperswithcode.com/paper/vita-1-5-towards-gpt-4o-level-real-time)  
   **Summary**: This paper introduces VITA-1.5, a Multimodal Large Language Model (MLLM) designed to integrate visual and speech modalities for real-time interaction. The authors propose a multi-stage training methodology that enables the model to understand both visual and speech information, facilitating efficient speech-to-speech dialogues without relying on separate Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) modules. This integration accelerates multimodal end-to-end response speed and enhances the model's capabilities in both vision and speech tasks. Comparative evaluations across benchmarks for image, video, and speech tasks demonstrate that VITA-1.5 achieves performance comparable to state-of-the-art models, enabling near real-time vision and speech interaction.  
@@ -132,7 +137,6 @@
   **Paper**: [Link](https://paperswithcode.com/paper/text-transformer-2-self-adaptive-llms)  
   **Summary**: This paper introduces $\text{Transformer}^2$, a self-adaptation framework designed to enable large language models (LLMs) to adapt to unseen tasks in real-time. The approach selectively adjusts the singular components of the models' weight matrices, allowing for efficient and dynamic task-specific behavior without extensive fine-tuning. During inference, a two-pass mechanism is employed: a dispatch system first identifies the task properties, and then task-specific "expert" vectors, trained via reinforcement learning, are dynamically combined to tailor the model's responses. This method outperforms traditional approaches like LoRA in both parameter efficiency and adaptability. Moreover, $\text{Transformer}^2$ demonstrates versatility across various LLM architectures and modalities, including vision-language tasks, marking a significant advancement toward dynamic, self-organizing AI systems.  
   **Tags**: #self-adaptive-LLMs #real-time-adaptation #reinforcement-learning #AI
-
 
 - **Titans: Learning to Memorize at Test Time**  
   **Paper**: [Link](https://arxiv.org/abs/2501.00663)  
