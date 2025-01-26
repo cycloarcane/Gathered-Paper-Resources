@@ -450,6 +450,12 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #benchmark #testing #OS
 
 ### User Interface & Interaction
+
+- **UI-TARS: Pioneering Automated GUI Interaction with Native Agents**  
+  **Paper**: [Link](https://paperswithcode.com/paper/ui-tars-pioneering-automated-gui-interaction)  
+  **Summary**: This paper introduces UI-TARS, a native GUI agent model that processes screenshots as input to perform human-like interactions, such as keyboard and mouse operations. Unlike existing frameworks that rely on heavily wrapped commercial models with expert-crafted prompts, UI-TARS is an end-to-end model that outperforms these sophisticated systems. Experiments demonstrate its superior performance across multiple GUI agent benchmarks evaluating perception, grounding, and task execution. Notably, in the OSWorld benchmark, UI-TARS achieves scores of 24.6 with 50 steps and 22.7 with 15 steps, surpassing models like Claude. In AndroidWorld, it achieves a score of 46.6, outperforming GPT-4o. Key innovations include enhanced perception through a large-scale dataset of GUI screenshots, unified action modeling standardizing actions across platforms, system-2 reasoning incorporating deliberate multi-step decision-making, and iterative training with reflective online traces to address data bottlenecks.  
+  **Tags**: #GUI #automation #human-computer-interaction #AI
+
 - **ShowUI: One Vision-Language-Action Model for GUI Visual Agent**
   **Paper**: [Link](https://paperswithcode.com/paper/showui-one-vision-language-action-model-for)  
   **Summary**: ShowUI is a vision-language-action model designed to enhance human productivity by enabling AI agents to interact with graphical user interfaces (GUIs) in a manner similar to human perception. Unlike traditional language-based agents that depend on text-rich meta-information, ShowUI incorporates advanced UI-guided visual token selection and interleaved vision-language-action streaming.  
