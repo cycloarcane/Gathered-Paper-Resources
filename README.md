@@ -5,6 +5,7 @@
 
 ## [1. Core AI Technologies](#core-ai-technologies)
 - Language Models & Architecture
+- Reinforcement Learning
 - Multimodal Models
 - Training & Optimization
 - Memory & Attention Mechanisms
@@ -17,7 +18,6 @@
 - Performance Optimization
 - Retrieval & Augmentation
 - Hallucination Reduction
-- Response Filtering
 
 ## [3. Applications & Implementations](#applications-and-implementations)
 - Coding & Development Tools
@@ -86,6 +86,20 @@
   **Paper**: [Link](https://paperswithcode.com/paper/hunyuan-large-an-open-source-moe-model-with)  
   **Summary**: This paper introduces Hunyuan-Large, the largest open-source Transformer-based mixture of experts model, featuring a total of 389 billion parameters with 52 billion activated parameters and the ability to handle up to 256K tokens. Hunyuan-Large demonstrates superior performance in various benchmarks, including language understanding and generation, logical reasoning, and coding tasks, surpassing smaller models while maintaining competitive performance against much larger counterparts like LLama3.1-405B.  
   **Tags**: #MoE #transformer #open-source #AI
+
+### Reinforcement Learning
+
+- **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**  
+  **Paper**: [Link](https://paperswithcode.com/paper/deepseek-r1-incentivizing-reasoning)  
+  **Summary**: This paper introduces DeepSeek-R1, a reasoning model developed through reinforcement learning (RL) to enhance the reasoning capabilities of large language models (LLMs). The authors present two versions: DeepSeek-R1-Zero, trained solely via large-scale RL without supervised fine-tuning, and DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL to improve performance and address issues like poor readability and language mixing observed in the zero version. DeepSeek-R1 achieves performance comparable to OpenAI's o1-1217 on reasoning tasks. The models and six distilled versions, ranging from 1.5B to 70B parameters, are open-sourced to support the research community.  
+  **Tags**: #reinforcement-learning #reasoning #LLMs #AI
+
+- **O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?**
+  **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
+  **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
+  **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
+
+
 
 ### Multimodal Models
 
@@ -205,13 +219,6 @@
 
 
 # AI Enhancement Technologies
-
-### Response Filtering
-
-- **O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?**
-  **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
-  **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
-  **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
 
 ### Retrieval & Augmentation
 
