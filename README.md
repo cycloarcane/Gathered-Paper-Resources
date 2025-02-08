@@ -365,6 +365,12 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #federated-learning #privacy #security #decentralized-networks
 
 ### Cybersecurity
+
+- **On the Feasibility of Using LLMs to Execute Multistage Network Attacks**  
+  **Paper**: [Link](https://arxiv.org/abs/2501.16466)  
+  **Summary**: This paper investigates the capability of large language models (LLMs) to autonomously conduct multistage network attacks, which involve complex sequences of actions across multiple hosts, including reconnaissance, exploitation, lateral movement, and data exfiltration. The authors evaluate various LLMs across 10 emulated network environments and find that, in their standard configurations, LLMs struggle to perform these attacks effectively. To address this limitation, they introduce Incalmo, an LLM-agnostic high-level attack abstraction layer that mediates between the LLM and the target environment. Incalmo allows LLMs to specify high-level tasks (e.g., "infect a host" or "scan a network"), which it then translates into low-level commands using an action planner, environment state service, and attack graph service. This approach enables LLMs to successfully execute multistage attacks in 9 out of 10 tested environments, highlighting the potential for LLMs to be utilized in automated cybersecurity operations when paired with appropriate abstraction layers.  
+  **Tags**: #LLMs #cybersecurity #network-attacks #automation #AI
+
 - **IntellBot: Retrieval Augmented LLM Chatbot for Cyber Threat Knowledge Delivery**
   **Paper**: [Link](https://arxiv.org/abs/2411.05442)  
   **Summary**: This paper introduces IntellBot, an advanced cybersecurity chatbot leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques. IntellBot aggregates information from diverse sources to create a comprehensive knowledge base encompassing known vulnerabilities, recent cyberattacks, and emerging threats.  
