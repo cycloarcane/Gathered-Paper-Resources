@@ -125,6 +125,13 @@
 
 ### Training & Optimization
 
+
+- **Block Diffusion: Interpolating Between Generative and Discriminative Models**
+- **Paper**: [Link](https://paperswithcode.com/paper/block-diffusion-interpolating-between)  
+- **Summary**: This paper introduces Block Diffusion, a novel framework that bridges the gap between generative and discriminative models. By leveraging block-structured diffusion processes, the approach enables controlled interpolation between generative modeling and supervised learning tasks. The authors explore various applications, demonstrating improved flexibility in training regimes and enhanced generalization in tasks such as image synthesis and classification.  
+- **Tags**: #diffusion-models #generative-modeling #discriminative-models #AI
+
+
 - **s1: Simple Test-Time Scaling**  
   **Paper**: [Link](https://arxiv.org/abs/2501.19393)  
   **Summary**: This paper introduces "s1," a methodology aimed at enhancing language model performance through test-time scaling, which leverages additional computational resources during inference to improve outcomes. The authors curate a concise dataset, s1K, comprising 1,000 questions with detailed reasoning traces, selected based on validated criteria of difficulty, diversity, and quality. They also propose "budget forcing," a technique that manages test-time computation by either truncating the model's reasoning process or extending it by appending "Wait" prompts, encouraging the model to reassess and potentially correct its reasoning steps. After fine-tuning the Qwen2.5-32B-Instruct language model using s1K and implementing budget forcing, the resulting model, s1-32B, surpasses OpenAI's o1-preview by up to 27% on competitive math benchmarks such as MATH and AIME24. This work demonstrates that significant performance gains can be achieved with minimal data and computational investment.  
