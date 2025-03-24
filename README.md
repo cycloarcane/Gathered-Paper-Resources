@@ -531,6 +531,12 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Video Generation
 
+- **Open-Sora 2.0: Training a Commercial-Level Sora Model on 2M Videos**  
+  **Paper**: [Link](https://paperswithcode.com/paper/open-sora-2-0-training-a-commercial-level)  
+  **Summary**: Open-Sora 2.0 is an open-source initiative aimed at reproducing and advancing Sora-level text-to-video generation capabilities. Trained on 2 million high-quality video clips, the system incorporates a multi-stage training pipeline with 3D U-Net architecture, temporal-aware attention mechanisms, and scalable data curation strategies. It achieves state-of-the-art performance in generating coherent, high-fidelity videos across diverse prompts and scenes. Open-Sora 2.0 sets a new benchmark for open-source video generation systems at commercial scale.  
+  **Tags**: #video-generation #text-to-video #open-source #Sora #AI
+
+
 - **SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints**
   **Paper**: [Link](https://paperswithcode.com/paper/syncammaster-synchronizing-multi-camera-video)  
   **Summary**: SynCamMaster introduces a plug-and-play module that enhances pre-trained text-to-video models for generating synchronized multi-camera videos from diverse viewpoints. It incorporates a multi-view synchronization module to maintain appearance and geometry consistency across different camera angles.  
