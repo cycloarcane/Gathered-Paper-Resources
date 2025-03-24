@@ -565,6 +565,14 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 # Specialized Applications
 
+### Healthcare
+
+- **TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools**  
+  **Paper**: [Link](https://paperswithcode.com/paper/txagent-an-ai-agent-for-therapeutic-reasoning)  
+  **Summary**: TxAgent is an AI agent designed to enhance precision therapeutics by integrating multi-step reasoning with real-time biomedical knowledge retrieval. It leverages a toolbox of 211 tools, collectively known as ToolUniverse, to analyze drug interactions, contraindications, and patient-specific treatment strategies. By evaluating drugs at molecular, pharmacokinetic, and clinical levels, TxAgent tailors treatment recommendations to individual patient characteristics, including age, genetic factors, and disease progression. It outperforms leading large language models and reasoning agents across multiple benchmarks, achieving 92.1% accuracy in open-ended drug reasoning tasks.  
+  **Tags**: #AI-agent #therapeutic-reasoning #precision-medicine #healthcare #ToolUniverse
+
+
 ### Financial Technology
 - **FinRobot: AI Agent for Equity Research and Valuation with Large Language Models**
   **Paper**: [Link](https://paperswithcode.com/paper/finrobot-ai-agent-for-equity-research-and)  
