@@ -378,6 +378,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities**  
+  **Paper**: [Link](https://arxiv.org/abs/2503.17332)  
+  **Summary**: CVE-Bench introduces a real-world cybersecurity benchmark designed to evaluate the capability of large language model (LLM) agents in exploiting web application vulnerabilities. Unlike previous benchmarks that focus on abstract Capture the Flag competitions, CVE-Bench utilizes critical-severity Common Vulnerabilities and Exposures (CVEs) to create scenarios that closely mimic real-world conditions. The framework provides a sandbox environment for LLM agents to autonomously exploit vulnerabilities, facilitating systematic evaluation of their performance. Initial assessments reveal that state-of-the-art agent frameworks can successfully exploit up to 13% of the vulnerabilities presented.  
+  **Tags**: #cybersecurity #AI-agents #vulnerability-exploitation #benchmarking #LLM
+
 - **On the Feasibility of Using LLMs to Execute Multistage Network Attacks**  
   **Paper**: [Link](https://arxiv.org/abs/2501.16466)  
   **Summary**: This paper investigates the capability of large language models (LLMs) to autonomously conduct multistage network attacks, which involve complex sequences of actions across multiple hosts, including reconnaissance, exploitation, lateral movement, and data exfiltration. The authors evaluate various LLMs across 10 emulated network environments and find that, in their standard configurations, LLMs struggle to perform these attacks effectively. To address this limitation, they introduce Incalmo, an LLM-agnostic high-level attack abstraction layer that mediates between the LLM and the target environment. Incalmo allows LLMs to specify high-level tasks (e.g., "infect a host" or "scan a network"), which it then translates into low-level commands using an action planner, environment state service, and attack graph service. This approach enables LLMs to successfully execute multistage attacks in 9 out of 10 tested environments, highlighting the potential for LLMs to be utilized in automated cybersecurity operations when paired with appropriate abstraction layers.  
@@ -571,7 +576,6 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Paper**: [Link](https://paperswithcode.com/paper/txagent-an-ai-agent-for-therapeutic-reasoning)  
   **Summary**: TxAgent is an AI agent designed to enhance precision therapeutics by integrating multi-step reasoning with real-time biomedical knowledge retrieval. It leverages a toolbox of 211 tools, collectively known as ToolUniverse, to analyze drug interactions, contraindications, and patient-specific treatment strategies. By evaluating drugs at molecular, pharmacokinetic, and clinical levels, TxAgent tailors treatment recommendations to individual patient characteristics, including age, genetic factors, and disease progression. It outperforms leading large language models and reasoning agents across multiple benchmarks, achieving 92.1% accuracy in open-ended drug reasoning tasks.  
   **Tags**: #AI-agent #therapeutic-reasoning #precision-medicine #healthcare #ToolUniverse
-
 
 ### Financial Technology
 - **FinRobot: AI Agent for Equity Research and Valuation with Large Language Models**
