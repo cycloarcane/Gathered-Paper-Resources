@@ -15,6 +15,7 @@
 - World Modeling Platforms
 
 ## [2. AI Enhancement Technologies](#ai-enhancement-technologies)
+- Deepsearch Tools
 - Performance Optimization
 - Retrieval & Augmentation
 - Hallucination Reduction
@@ -98,7 +99,6 @@
   **Paper**: [Link](https://paperswithcode.com/paper/o1-replication-journey-part-2-surpassing-o1)  
   **Summary**: This study critically examines current methods for replicating OpenAI's O1 model capabilities, focusing on the often undisclosed use of knowledge distillation techniques. The authors demonstrate that simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Experiments reveal that a base model fine-tuned on tens of thousands of O1-distilled samples outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Additionally, the study explores the generalization capabilities of O1-distilled models across diverse tasks, including hallucination, safety, and open-domain question answering. Notably, models trained solely on mathematical problem-solving data exhibited strong generalization to open-ended QA tasks and showed reduced susceptibility to sycophancy after fine-tuning. The authors advocate for transparency in AI research and caution against over-reliance on distillation approaches, emphasizing the importance of first-principles thinking in developing capable AI systems.  
   **Tags**: #O1-replication #knowledge-distillation #AI-research #transparency
-
 
 
 ### Multimodal Models
@@ -231,6 +231,14 @@
 
 
 # AI Enhancement Technologies
+
+### Deepsearch Tools
+
+- **Open Deep Search: Democratizing Search with Open-source Reasoning Agents**  
+  **Paper**: [Link](https://arxiv.org/abs/2503.20201)  
+  **Summary**: Open Deep Search (ODS) is an open-source framework designed to enhance the reasoning capabilities of large language models (LLMs) by integrating web search tools. It comprises two main components: the Open Search Tool, which retrieves and augments relevant web content, and the Open Reasoning Agent, which orchestrates a sequence of actions, including tool calls, to interpret and complete tasks. Evaluations demonstrate that ODS, when paired with powerful open-source LLMs like DeepSeek-R1, achieves state-of-the-art performance on benchmarks such as SimpleQA and FRAMES, outperforming existing proprietary solutions.  
+  **Tags**: #open-source #reasoning-agents #web-search #large-language-models #AI
+
 
 ### Retrieval & Augmentation
 
