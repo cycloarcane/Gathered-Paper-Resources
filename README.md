@@ -298,6 +298,13 @@
   **Tags**: #code-generation #LLM #AI #Qwen2.5-Coder
 
 ### Agentic Frameworks & Task Management
+
+- **Large Language Model Agent: A Survey on Methodology, Applications and Challenges**  
+  **Paper**: [Link](https://arxiv.org/abs/2503.21460)  
+  **Summary**: This survey systematically deconstructs Large Language Model (LLM) agent systems through a methodology-centered taxonomy, linking architectural foundations, collaboration mechanisms, and evolutionary pathways. It unifies fragmented research threads by revealing fundamental connections between agent design principles and their emergent behaviors in complex environments. The work provides a unified architectural perspective, examining how agents are constructed, how they collaborate, and how they evolve over time, while also addressing evaluation methodologies, tool applications, practical challenges, and diverse application domains. By surveying the latest developments in this rapidly evolving field, the authors offer researchers a structured taxonomy for understanding LLM agents and identify promising directions for future research.  
+  **Tags**: #LLM-agents #methodology #survey #artificial-general-intelligence #AI
+
+
 - **Agent S - Uses computers like a human**
   **Paper**: [Link](https://paperswithcode.com/paper/agent-s-an-open-agentic-framework-that-uses)  
   **Summary**: Agent S introduces an open agentic framework that enables AI systems to utilize computers similarly to humans, enhancing task management and execution capabilities.  
