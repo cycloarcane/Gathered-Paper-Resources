@@ -234,6 +234,11 @@
 
 ### Deepsearch Tools
 
+- **Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning**  
+  **Paper**: [Link](https://arxiv.org/abs/2503.09516)  
+  **Summary**: Search-R1 extends the DeepSeek-R1 model by enabling large language models (LLMs) to autonomously generate multiple search queries during step-by-step reasoning with real-time retrieval, using reinforcement learning (RL). This approach optimizes LLM rollouts with multi-turn search interactions, leveraging retrieved token masking for stable RL training and a simple outcome-based reward function. Experiments on seven question-answering datasets demonstrate performance improvements of 26% (Qwen2.5-7B), 21% (Qwen2.5-3B), and 10% (LLaMA3.2-3B) over strong baselines. The paper also provides insights into RL optimization methods, LLM choices, and response length dynamics in retrieval-augmented reasoning. Code and model checkpoints are available at [https://github.com/PeterGriffinJin/Search-R1](https://github.com/PeterGriffinJin/Search-R1).  
+  **Tags**: #reinforcement-learning #retrieval-augmented-reasoning #large-language-models #search-engines #AI
+
 - **Open Deep Search: Democratizing Search with Open-source Reasoning Agents**  
   **Paper**: [Link](https://arxiv.org/abs/2503.20201)  
   **Summary**: Open Deep Search (ODS) is an open-source framework designed to enhance the reasoning capabilities of large language models (LLMs) by integrating web search tools. It comprises two main components: the Open Search Tool, which retrieves and augments relevant web content, and the Open Reasoning Agent, which orchestrates a sequence of actions, including tool calls, to interpret and complete tasks. Evaluations demonstrate that ODS, when paired with powerful open-source LLMs like DeepSeek-R1, achieves state-of-the-art performance on benchmarks such as SimpleQA and FRAMES, outperforming existing proprietary solutions.  
