@@ -313,11 +313,15 @@
 
 ### Agentic Frameworks & Task Management
 
+- **Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems**  
+  **Paper**: [Link](https://arxiv.org/abs/2504.01990)  
+  **Summary**: This comprehensive 264-page survey presents a modular, brain-inspired architecture for intelligent agents, integrating principles from cognitive science, neuroscience, and computational research. It delves into the design of agents with perception, cognition, and action modules, emphasizing the importance of memory systems, dynamic tool utilization, and self-evolution capabilities. The paper also addresses the challenges of safety, proposing proactive design strategies to mitigate risks. By unifying fragmented research threads, it offers a structured taxonomy for understanding foundation agents and identifies promising directions for future research.  
+  **Tags**: #foundation-agents #brain-inspired-AI #modular-architecture #AI-safety #multi-agent-systems
+
 - **Large Language Model Agent: A Survey on Methodology, Applications and Challenges**  
   **Paper**: [Link](https://arxiv.org/abs/2503.21460)  
   **Summary**: This survey systematically deconstructs Large Language Model (LLM) agent systems through a methodology-centered taxonomy, linking architectural foundations, collaboration mechanisms, and evolutionary pathways. It unifies fragmented research threads by revealing fundamental connections between agent design principles and their emergent behaviors in complex environments. The work provides a unified architectural perspective, examining how agents are constructed, how they collaborate, and how they evolve over time, while also addressing evaluation methodologies, tool applications, practical challenges, and diverse application domains. By surveying the latest developments in this rapidly evolving field, the authors offer researchers a structured taxonomy for understanding LLM agents and identify promising directions for future research.  
   **Tags**: #LLM-agents #methodology #survey #artificial-general-intelligence #AI
-
 
 - **Agent S - Uses computers like a human**
   **Paper**: [Link](https://paperswithcode.com/paper/agent-s-an-open-agentic-framework-that-uses)  
