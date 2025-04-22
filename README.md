@@ -280,6 +280,12 @@
   **Tags**: #hallucination-reduction #LLM #false-premises #AI
 
 ### Performance Optimization
+
+- **Sleep‑time Compute: Beyond Inference Scaling at Test‑time**  
+  **Paper**: [Link](https://paperswithcode.com/paper/sleep-time-compute-beyond-inference-scaling)  
+  **Summary**: This work proposes *sleep‑time compute*—letting a model “think” offline *before* user queries arrive by predicting likely questions and pre‑computing helpful intermediate results. On two reasoning benchmarks (Stateful GSM‑Symbolic and Stateful AIME) the approach slashes test‑time compute by ≈5× while matching accuracy; scaling the offline budget then pushes accuracy a further 13 – 18 %. A new Multi‑Query GSM‑Symbolic dataset shows the pre‑computation cost can be amortized across related queries, cutting per‑query cost by 2.5×. An agentic software‑engineering case study illustrates real‑world applicability.  
+  **Tags**: #sleep-time-compute #inference-scaling #performance-optimization #LLM #AI
+
 - **Breaking the Low-Rank Dilemma of Linear Attention**
   **Paper**: [Link](https://paperswithcode.com/paper/breaking-the-low-rank-dilemma-of-linear)  
   **Summary**: This paper addresses the computational inefficiencies of the Softmax attention mechanism in Transformer models, particularly its quadratic complexity in vision applications. It introduces Rank-Augmented Linear Attention (RALA), which enhances the rank of linear attention's feature map, enabling it to model complex spatial information more effectively.  
