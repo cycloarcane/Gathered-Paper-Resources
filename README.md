@@ -417,6 +417,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **An LLM Framework for Cryptography over Chat Channels**  
+  **Paper**: [Link](https://paperswithcode.com/paper/an-llm-framework-for-cryptography-over-chat)  
+  **Summary**: The authors present **EmbedderLLM**, a text-embedding mechanism that covertly slots ciphertext into specific token positions of language-model output, producing chat that is statistically indistinguishable from normal conversation. The design supports both symmetric-key (password-based AEAD) and public-key schemes (e.g., ECDHE), works with any local LLM, and remains secure against pre- or post-quantum adversaries. Demonstrations show reliable key exchange and message transfer even in environments where conventional encryption is blocked or fingerprinted.:contentReference[oaicite:0]{index=0}  
+  **Tags**: #LLM-cryptography #steganography #covert-communication #cybersecurity #privacy #AI
+
 - **CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities**  
   **Paper**: [Link](https://arxiv.org/abs/2503.17332)  
   **Summary**: CVE-Bench introduces a real-world cybersecurity benchmark designed to evaluate the capability of large language model (LLM) agents in exploiting web application vulnerabilities. Unlike previous benchmarks that focus on abstract Capture the Flag competitions, CVE-Bench utilizes critical-severity Common Vulnerabilities and Exposures (CVEs) to create scenarios that closely mimic real-world conditions. The framework provides a sandbox environment for LLM agents to autonomously exploit vulnerabilities, facilitating systematic evaluation of their performance. Initial assessments reveal that state-of-the-art agent frameworks can successfully exploit up to 13% of the vulnerabilities presented.  
