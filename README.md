@@ -554,6 +554,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 # Multimedia Processing
 
 ### Speech & Audio
+
+- **IndexTTS: An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System**  
+  **Paper**: [Link](https://paperswithcode.com/paper/indextts-an-industrial-level-controllable-and)  
+  **Summary**: IndexTTS extends XTTS/Tortoise into an end-to-end, GPT-style TTS pipeline that can clone voices in a single shot while remaining lightweight enough for industrial workloads. Key upgrades include (1) a hybrid character + pinyin front-end to disambiguate polyphonic Chinese characters and long-tail words; (2) an empirical study of Vector-Quantisation vs. Finite-Scalar-Quantisation codebooks for acoustic tokens; (3) a Conformer-based speech-conditional encoder that steadies prosody during voice-cloning; and (4) replacement of the original decoder with **BigVGAN2** for cleaner, high-fidelity audio. Against open-source baselines (Fish-Speech, CosyVoice2, FireRedTTS, F5-TTS) it delivers higher naturalness, better content consistency, faster inference, and a simpler training recipe.  
+  **Tags**: #text-to-speech #zero-shot #voice-cloning #controllable-TTS #LLM
+
+
 - **TangoFlux: Super Fast and Faithful Text-to-Audio Generation with Flow Matching and CLAP-Ranked Preference Optimization**
   **Paper**: [Link](https://paperswithcode.com/paper/tangoflux-super-fast-and-faithful-text-to)  
   **Summary**: TangoFlux is an efficient text-to-audio (TTA) generative model with 515 million parameters, capable of producing up to 30 seconds of 44.1kHz audio in just 3.7 seconds on a single A40 GPU. It introduces CLAP-Ranked Preference Optimization (CRPO), a novel framework that iteratively generates and optimizes preference data to enhance TTA alignment. TangoFlux outperforms existing TTA models in both objective and subjective evaluations, providing superior audio quality with reduced inference times.  
