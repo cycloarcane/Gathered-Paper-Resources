@@ -417,6 +417,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+---
+
+- **CAI: An Open, Bug Bounty-Ready Cybersecurity AI**  
+  **Paper**: [Link](https://cs.paperswithcode.com/paper/cai-an-open-bug-bounty-ready-cybersecurity-ai)  
+  **Summary**: CAI introduces a modular, open-source framework that builds specialised AI agents to automate end-to-end vulnerability discovery. It formalises “levels of autonomy” for security tooling, then shows that its agents beat state-of-the-art CTF baselines—solving challenges up to **3,600 ×** faster (11 × on average) and winning first place among AI teams in the “AI vs Human” live CTF. Outside benchmarks, CAI climbed into the global top-30 on Hack The Box within a week while slashing average bug-bounty testing costs by **156 ×**. Its human-in-the-loop design, plug-and-play tool integration, and emphasis on open access aim to democratise advanced security testing beyond today’s oligopolistic bug-bounty platforms. :contentReference[oaicite:0]{index=0}  
+  **Tags**: #cybersecurity #bug-bounty #penetration-testing #ai-agents #ctf
+
 - **An LLM Framework for Cryptography over Chat Channels**  
   **Paper**: [Link](https://paperswithcode.com/paper/an-llm-framework-for-cryptography-over-chat)  
   **Summary**: The authors present **EmbedderLLM**, a text-embedding mechanism that covertly slots ciphertext into specific token positions of language-model output, producing chat that is statistically indistinguishable from normal conversation. The design supports both symmetric-key (password-based AEAD) and public-key schemes (e.g., ECDHE), works with any local LLM, and remains secure against pre- or post-quantum adversaries. Demonstrations show reliable key exchange and message transfer even in environments where conventional encryption is blocked or fingerprinted.:contentReference[oaicite:0]{index=0}  
