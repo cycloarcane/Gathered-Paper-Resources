@@ -417,7 +417,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
----
+- **Cybersecurity AI: The Dangerous Gap Between Automation and Autonomy**  
+  **Paper**: [Link](https://cs.paperswithcode.com/paper/cybersecurity-ai-the-dangerous-gap-between)  
+  **Summary**: This position paper warns that vendors routinely blur the line between *automation* (scripted tasks) and *autonomy* (adaptive decision-making), creating over-hyped “fully autonomous pentesters.” Drawing on robotics, the author introduces a 6-level taxonomy (Level 0–5) for “cybersecurity autonomy,” showing that today’s leading agents (e.g., XBOW, CAI) actually sit at Levels 3–4 and still require human validation. Mislabeling them can tempt organisations to remove oversight, potentially adding new vulnerabilities instead of closing them. The paper argues for precise terminology, transparent capability disclosure, and a human-in-the-loop model as prerequisites for responsible progress. :contentReference[oaicite:0]{index=0}  
+  **Tags**: #cybersecurity #ai-autonomy #penetration-testing #human-in-the-loop #taxonomy
+
 
 - **CAI: An Open, Bug Bounty-Ready Cybersecurity AI**  
   **Paper**: [Link](https://cs.paperswithcode.com/paper/cai-an-open-bug-bounty-ready-cybersecurity-ai)  
