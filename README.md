@@ -482,6 +482,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #poisoning #security #AI
 
 ### Detection & Monitoring
+
+- **Protecting Small Organizations from AI Bots with Logrip: Hierarchical IP Hashing**  
+  **Paper**: [Link](https://arxiv.org/abs/2508.03130)  
+  **Summary**: The paper introduces **Logrip**, an open-source tool that analyzes web-server access logs to distinguish human traffic from automated crawlers and AI bots. It hashes IPs hierarchically (individual, /24, and /16 subnets) and applies behavior-based metrics—such as request rate, daily span, and consecutive-day activity—to score and block mechanical access patterns. Tested on a real non-profit’s server, Logrip reduced estimated workload by **94 %**, proving more effective than conventional throttling. The approach provides small organizations with a lightweight, configurable defense against distributed crawler traffic that degrades performance while remaining within polite rate limits.  
+  **Tags**: #cybersecurity #log-analysis #bot-detection #hierarchical-ip-hashing #AI-crawlers
+
+
 - **Human intelligence can safeguard against artificial intelligence**
   **Paper**: [Link](https://www.nature.com/articles/s41598-024-76218-y?fromPaywallRec=false)  
   **Summary**: This study explores individual differences in discerning human-generated texts from AI-generated ones, highlighting the role of human intelligence in monitoring AI outputs.  
