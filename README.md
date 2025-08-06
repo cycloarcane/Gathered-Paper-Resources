@@ -1,5 +1,6 @@
 **Welcome to my categorised resources from my reading of academic papers!**
 
+*Note: Many of these papers have accompanying code repositories on github which were linked with paperswithcode URLs, this service has now been discontinued so please make sure to search interesting papers for paired GitHub repos using a search engine*  
 
 # Table of Contents
 
