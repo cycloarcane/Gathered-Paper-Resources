@@ -5,6 +5,7 @@
 # Table of Contents
 
 ## [1. Core AI Technologies](#core-ai-technologies)
+- Reasoning & Prompting Mechanisms
 - Language Models & Architecture
 - Reinforcement Learning
 - Multimodal Models
@@ -63,6 +64,15 @@
 
 
 # Core AI Technologies
+
+### Reasoning & Prompting Mechanisms
+
+- **Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens**  
+  **Paper**: [arXiv:2508.01191](https://arxiv.org/abs/2508.01191)  
+  **Summary**: This paper investigates the robustness of Chain-of-Thought (CoT) reasoning in large language models through a data distribution lens. The authors introduce DataAlchemy, a controlled framework to train LLMs from scratch and systematically probe CoT behavior across task, length, and format dimensions. Their findings reveal that CoT reasoning is brittle and heavily reliant on distributional proximity to training data, vanishing under significant distribution shifts.  
+  **Authors**: Chengshuai Zhao, Zhen Tan, Pingchuan Ma, Dawei Li, Bohan Jiang, Yancheng Wang, Yingzhen Yang, Huan Liu  
+  **Date**: Submitted August 2, 2025; revised August 5, 2025  
+  **Tags**: #chain-of-thought #CoT #data-distribution #inductive-bias #reasoning #generalizable-reasoning
 
 ### Language Models & Architecture
 - **[DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1)**  
