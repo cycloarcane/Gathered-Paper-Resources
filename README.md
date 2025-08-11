@@ -67,11 +67,8 @@
 
 ### Reasoning & Prompting Mechanisms
 
-- **Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens**  
-  **Paper**: [arXiv:2508.01191](https://arxiv.org/abs/2508.01191)  
-  **Summary**: This paper investigates the robustness of Chain-of-Thought (CoT) reasoning in large language models through a data distribution lens. The authors introduce DataAlchemy, a controlled framework to train LLMs from scratch and systematically probe CoT behavior across task, length, and format dimensions. Their findings reveal that CoT reasoning is brittle and heavily reliant on distributional proximity to training data, vanishing under significant distribution shifts.  
-  **Authors**: Chengshuai Zhao, Zhen Tan, Pingchuan Ma, Dawei Li, Bohan Jiang, Yancheng Wang, Yingzhen Yang, Huan Liu  
-  **Date**: Submitted August 2, 2025; revised August 5, 2025  
+- **[Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://arxiv.org/abs/2508.01191)**  
+  **Summary**: Investigates the robustness of Chain-of-Thought (CoT) reasoning in large language models through a data distribution lens. Introduces *DataAlchemy*, a controlled framework to train LLMs from scratch and systematically probe CoT behavior across task, length, and format dimensions. Findings reveal that CoT reasoning is brittle and heavily reliant on distributional proximity to training data, disappearing under significant distribution shifts.  
   **Tags**: #chain-of-thought #CoT #data-distribution #inductive-bias #reasoning #generalizable-reasoning
 
 ### Language Models & Architecture
@@ -367,6 +364,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Tags**: #federated-learning #privacy #security #decentralized-networks
 
 ### Cybersecurity
+
+- **[Cyber-Zero: Training Cybersecurity Agents without Runtime](https://arxiv.org/abs/2508.00910)**  
+  **Summary**: Cyber-Zero is the first framework for training cybersecurity agents **without the need for runtime environments**. It uses large language models to generate high-quality, long-horizon agent trajectories by reverse-engineering runtime behaviors from publicly available Capture-The-Flag (CTF) write-ups. This persona-driven simulation approach eliminates executables while producing results that match or outperform traditional runtime-dependent methods.  
+  **Tags**: #cybersecurity #LLM #synthetic-data #runtime-free-training #CTF #AI-security
 
 - **[Cybersecurity AI: The Dangerous Gap Between Automation and Autonomy](https://arxiv.org/abs/2506.23592)**  
   **Summary**: This position paper warns that vendors routinely blur the line between *automation* (scripted tasks) and *autonomy* (adaptive decision-making), creating over-hyped “fully autonomous pentesters.” Drawing on robotics, the author introduces a 6-level taxonomy (Level 0–5) for “cybersecurity autonomy,” showing that today’s leading agents (e.g., XBOW, CAI) actually sit at Levels 3–4 and still require human validation. Mislabeling them can tempt organisations to remove oversight, potentially adding new vulnerabilities instead of closing them. The paper argues for precise terminology, transparent capability disclosure, and a human-in-the-loop model as prerequisites for responsible progress. :contentReference[oaicite:0]{index=0}  
