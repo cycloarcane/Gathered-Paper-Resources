@@ -337,6 +337,12 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 # AI Safety and Security
 
+### Alignment
+
+- **[From Hard Refusals to Safe‑Completions: Toward Output‑Centric Safety Training](https://arxiv.org/abs/2508.09224)**  
+  **Summary**: This paper introduces "safe-completions" as an alternative to traditional hard refusal mechanisms in language model safety. Rather than blocking user queries based solely on intent classification, the approach focuses on ensuring that the model's outputs remain safe—especially in sensitive, dual-use domains like biology or cybersecurity. The authors integrate this method into GPT‑5, demonstrating improvements in failure severity reduction, dual-use scenario robustness, and overall helpfulness. Evaluations include both production settings and controlled experiments, highlighting the effectiveness of output-centric safety training in real-world deployment.  
+  **Tags**: #LLM-safety #output-centric #safe-completions #dual-use #OpenAI
+
 ### Security Frameworks
 
 - **[Granite Guardian](https://arxiv.org/abs/2412.07724v2)**  
