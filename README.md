@@ -371,6 +371,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **[Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence](https://arxiv.org/abs/2508.10677)**
+  **Summary**: This paper introduces a retrieval-augmented generation (RAG) framework that fuses large language models (LLMs) with unstructured Cyber Threat Intelligence (CTI) to automate and enhance incident response. The model enriches security alerts with contextualized, actionable remediation without retraining when CTI updates. Experiments on real and simulated alerts demonstrate improved contextual relevance, reduced analyst workload, and faster response times.
+  **Tags**: #incident-response #cyber-threat-intelligence #LLM #RAG #autonomous-security
+
 - **[Cyber-Zero: Training Cybersecurity Agents without Runtime](https://arxiv.org/abs/2508.00910)**  
   **Summary**: Cyber-Zero is the first framework for training cybersecurity agents **without the need for runtime environments**. It uses large language models to generate high-quality, long-horizon agent trajectories by reverse-engineering runtime behaviors from publicly available Capture-The-Flag (CTF) write-ups. This persona-driven simulation approach eliminates executables while producing results that match or outperform traditional runtime-dependent methods.  
   **Tags**: #cybersecurity #LLM #synthetic-data #runtime-free-training #CTF #AI-security
