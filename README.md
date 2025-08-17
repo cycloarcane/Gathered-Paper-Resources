@@ -371,6 +371,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **[Evasive Ransomware Attacks Using Low-level Behavioral Adversarial Examples](https://arxiv.org/abs/2508.08656)**  
+  **Summary**: Defines *low-level behavioral adversarial examples* for defeating deep-learning ransomware detectors that rely on runtime behavior. The authors formalize a gray-box threat model and an optimization that searches for source-code edits which induce minimal perturbations to storage/memory access patterns (e.g., entropy, throughput, page/GPA access stats) yet flip the detector’s decision. They prototype a **micro-behavior control** mechanism on leaked Conti ransomware—tuning number of threads, per-file encryption ratio, and post-encryption delay—to generate executable adversarial behaviors. Using RanSMAP features and a DL detector, the attack lowers recall from 0.98 to as low as 0.64 (Δ −0.34) and can mimic benign apps (e.g., SDelete), while noting that broader, more flexible behavioral manipulation is needed for consistently successful evasion.  
+  **Tags**: #cybersecurity #adversarial-examples #ransomware #malware-detection #behavioral-features #evasion-attack
+
 - **[Pentest-R1: Towards Autonomous Penetration Testing Reasoning Optimized via Two-Stage Reinforcement Learning](https://arxiv.org/abs/2508.07382)**  
   **Summary**: The authors propose **Pentest-R1**, a framework designed to automate penetration testing by enhancing the reasoning capabilities of large language models (LLMs). It does so through a **two-stage reinforcement learning pipeline**:  
   - First, an **offline RL stage** trains the model on a dataset containing over 500 real-world, multi-step walkthroughs to instill foundational attack logic.  
