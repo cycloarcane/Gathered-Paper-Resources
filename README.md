@@ -371,6 +371,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **[Pentest-R1: Towards Autonomous Penetration Testing Reasoning Optimized via Two-Stage Reinforcement Learning](https://arxiv.org/abs/2508.07382)**  
+  **Summary**: The authors propose **Pentest-R1**, a framework designed to automate penetration testing by enhancing the reasoning capabilities of large language models (LLMs). It does so through a **two-stage reinforcement learning pipeline**:  
+  - First, an **offline RL stage** trains the model on a dataset containing over 500 real-world, multi-step walkthroughs to instill foundational attack logic.  
+  - Then, an **online RL stage** fine-tunes the model via interactions within a Capture The Flag (CTF) environment, allowing it to self-correct errors and adapt strategies based on direct environmental feedback.  
+  In evaluations on the **AutoPenBench** benchmark, Pentest-R1 achieves a **24.2% success rate**, second only to Gemini 2.5 Flash. On **Cybench**, it records a **15.0% success rate** for unguided tasks—setting a new state-of-the-art among open-source LLMs and matching top proprietary models. Ablation studies underline that both RL stages are vital to its performance.  
+  **Tags**: #cybersecurity #LLM #reinforcement-learning #autonomous-penetration-testing
+
 - **[Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence](https://arxiv.org/abs/2508.10677)**
   **Summary**: This paper introduces a retrieval-augmented generation (RAG) framework that fuses large language models (LLMs) with unstructured Cyber Threat Intelligence (CTI) to automate and enhance incident response. The model enriches security alerts with contextualized, actionable remediation without retraining when CTI updates. Experiments on real and simulated alerts demonstrate improved contextual relevance, reduced analyst workload, and faster response times.
   **Tags**: #incident-response #cyber-threat-intelligence #LLM #RAG #autonomous-security
@@ -382,7 +389,6 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 - **[Cybersecurity AI: The Dangerous Gap Between Automation and Autonomy](https://arxiv.org/abs/2506.23592)**  
   **Summary**: This position paper warns that vendors routinely blur the line between *automation* (scripted tasks) and *autonomy* (adaptive decision-making), creating over-hyped “fully autonomous pentesters.” Drawing on robotics, the author introduces a 6-level taxonomy (Level 0–5) for “cybersecurity autonomy,” showing that today’s leading agents (e.g., XBOW, CAI) actually sit at Levels 3–4 and still require human validation. Mislabeling them can tempt organisations to remove oversight, potentially adding new vulnerabilities instead of closing them. The paper argues for precise terminology, transparent capability disclosure, and a human-in-the-loop model as prerequisites for responsible progress. :contentReference[oaicite:0]{index=0}  
   **Tags**: #cybersecurity #ai-autonomy #penetration-testing #human-in-the-loop #taxonomy
-
 
 - **[CAI: An Open, Bug Bounty-Ready Cybersecurity AI](https://arxiv.org/abs/2504.06017)**  
   **Summary**: CAI introduces a modular, open-source framework that builds specialised AI agents to automate end-to-end vulnerability discovery. It formalises “levels of autonomy” for security tooling, then shows that its agents beat state-of-the-art CTF baselines—solving challenges up to **3,600 ×** faster (11 × on average) and winning first place among AI teams in the “AI vs Human” live CTF. Outside benchmarks, CAI climbed into the global top-30 on Hack The Box within a week while slashing average bug-bounty testing costs by **156 ×**. Its human-in-the-loop design, plug-and-play tool integration, and emphasis on open access aim to democratise advanced security testing beyond today’s oligopolistic bug-bounty platforms. :contentReference[oaicite:0]{index=0}  
