@@ -371,6 +371,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **[CAI Fluency: A Framework for Cybersecurity AI Fluency](https://arxiv.org/abs/2508.13588)**  
+  **Summary**: Introduces **CAI Fluency**, an educational platform within the Cybersecurity AI (CAI) framework aimed at democratizing knowledge and practical use of AI-based cybersecurity tools—what the authors term “vibe-hacking,” the security analogue to vibe-coding. It adapts the Framework for AI Fluency’s three human–AI interaction modalities and four core competencies specifically to cybersecurity, emphasizing not only technical skill but also critical thinking and ethical practice. The report serves as a white paper plus hands-on guide for applying the CAI framework in projects and real-world security contexts.  
+  **Tags**: #cybersecurity #AI #AI-fluency #education #framework #human-AI-interaction #ethics #CAI
+
 - **[Evasive Ransomware Attacks Using Low-level Behavioral Adversarial Examples](https://arxiv.org/abs/2508.08656)**  
   **Summary**: Defines *low-level behavioral adversarial examples* for defeating deep-learning ransomware detectors that rely on runtime behavior. The authors formalize a gray-box threat model and an optimization that searches for source-code edits which induce minimal perturbations to storage/memory access patterns (e.g., entropy, throughput, page/GPA access stats) yet flip the detector’s decision. They prototype a **micro-behavior control** mechanism on leaked Conti ransomware—tuning number of threads, per-file encryption ratio, and post-encryption delay—to generate executable adversarial behaviors. Using RanSMAP features and a DL detector, the attack lowers recall from 0.98 to as low as 0.64 (Δ −0.34) and can mimic benign apps (e.g., SDelete), while noting that broader, more flexible behavioral manipulation is needed for consistently successful evasion.  
   **Tags**: #cybersecurity #adversarial-examples #ransomware #malware-detection #behavioral-features #evasion-attack
