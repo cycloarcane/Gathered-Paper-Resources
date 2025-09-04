@@ -371,6 +371,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Cybersecurity
 
+- **[Are Enterprises Ready for Quantum-Safe Cybersecurity?](https://arxiv.org/abs/2509.01731)**  
+  **Summary**: This paper provides a multi-perspective assessment of enterprise readiness for quantum-safe cybersecurity. It considers the technologist’s view (maturity of post-quantum cryptography and quantum key distribution), the enterprise leader’s view (awareness, risk management, operational challenges), and the adversary’s view (quantum threat timelines and “harvest now, decrypt later” risks). A SWOT analysis reveals that fewer than 5% of enterprises have formal transition plans, with only finance, telecom, and government sectors actively migrating. Most are hindered by costs, complexity, and lack of expertise. The paper projects cryptanalytically relevant quantum computers in the 2030s and recommends crypto-agility, roadmap development, PQC deployment in high-value systems, and workforce upskilling.  
+  **Tags**: #quantum-safe #cybersecurity #post-quantum-cryptography #PQC #risk-management
+
 - **[CAI Fluency: A Framework for Cybersecurity AI Fluency](https://arxiv.org/abs/2508.13588)**  
   **Summary**: Introduces **CAI Fluency**, an educational platform within the Cybersecurity AI (CAI) framework aimed at democratizing knowledge and practical use of AI-based cybersecurity tools—what the authors term “vibe-hacking,” the security analogue to vibe-coding. It adapts the Framework for AI Fluency’s three human–AI interaction modalities and four core competencies specifically to cybersecurity, emphasizing not only technical skill but also critical thinking and ethical practice. The report serves as a white paper plus hands-on guide for applying the CAI framework in projects and real-world security contexts.  
   **Tags**: #cybersecurity #AI #AI-fluency #education #framework #human-AI-interaction #ethics #CAI
