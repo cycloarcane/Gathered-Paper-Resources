@@ -555,6 +555,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 
 ### Video Generation
 
+- **[ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development](https://arxiv.org/abs/2506.05010)**  
+  **Summary**: Presents ComfyUI-Copilot, an LLM-powered assistant plugin for the ComfyUI visual generative-AI platform. It provides intelligent node/model recommendations and one-click automated workflow construction using a hierarchical multi-agent architecture (a central assistant delegating to specialized worker agents) backed by curated ComfyUI knowledge bases. Offline evaluations and online user feedback show improved accuracy of recommendations and faster workflow building; code and demo are available on GitHub.  
+  **Tags**: #agent #multi-agent #workflow-automation #ComfyUI #LLM #creative-AI
+
 - **[Open-Sora 2.0: Training a Commercial-Level Sora Model on 2M Videos](https://arxiv.org/abs/2503.09642v2)**  
   **Summary**: Open-Sora 2.0 is an open-source initiative aimed at reproducing and advancing Sora-level text-to-video generation capabilities. Trained on 2 million high-quality video clips, the system incorporates a multi-stage training pipeline with 3D U-Net architecture, temporal-aware attention mechanisms, and scalable data curation strategies. It achieves state-of-the-art performance in generating coherent, high-fidelity videos across diverse prompts and scenes. Open-Sora 2.0 sets a new benchmark for open-source video generation systems at commercial scale.  
   **Tags**: #video-generation #text-to-video #open-source #Sora #AI
