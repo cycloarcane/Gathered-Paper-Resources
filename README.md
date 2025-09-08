@@ -488,6 +488,11 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
 # Development Tools and Infrastructure
 
 ### Testing & Benchmarking
+
+- **[MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://arxiv.org/abs/2508.20453)**  
+  **Summary**: Introduces **MCP-Bench**, a benchmark for evaluating tool-using LLM agents on realistic, multi-step tasks. Built on the Model Context Protocol (MCP), it connects models to **28 live MCP servers** exposing **~250 tools** across domains (e.g., finance, travel, scientific computing, academic search). Tasks require cross-tool orchestration, schema understanding, precise parameter control, planning/reasoning, and grounding in intermediate tool outputs. A multi-facet evaluation covers tool usage, trajectory planning, and end-to-end task success; experiments on **20 LLMs** reveal persistent challenges. Code and data are available on GitHub.  
+  **Tags**: #benchmark #MCP #tool-use #LLM-agents #evaluation #planning
+
 - **OSWorld**
   **Summary**: OSWorld provides a comprehensive benchmarking environment for evaluating AI performance across various operating systems.  
   **Tags**: #benchmark #testing #OS
