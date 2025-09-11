@@ -94,6 +94,10 @@
 
 ### Reinforcement Learning
 
+- **[Memento: Fine-tuning LLM Agents without Fine-tuning LLMs](https://arxiv.org/abs/2508.16153)**  
+  **Summary**: Proposes a memory-based online reinforcement learning paradigm that adapts LLM agents without updating base model weights. The method formalizes agent learning as a **Memory-augmented MDP (M-MDP)** with episodic memory (differentiable or non-parametric), a **neural case-selection policy**, and **memory rewriting/reading** for continual improvement. In a deep-research setting, the agent achieves **87.88% Pass@3 (top-1) on GAIA validation** and **79.40% on GAIA test**, plus **66.6% F1 / 80.4% PM on DeepResearcher**, and gains **+4.7–9.6** points on OOD tasks via case-based memory. Code is released.  
+  **Tags**: #LLM-agents #reinforcement-learning #continual-learning #episodic-memory #case-based-policy
+
 - **[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948v1)**  
   **Summary**: This paper introduces DeepSeek-R1, a reasoning model developed through reinforcement learning (RL) to enhance the reasoning capabilities of large language models (LLMs). The authors present two versions: DeepSeek-R1-Zero, trained solely via large-scale RL without supervised fine-tuning, and DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL to improve performance and address issues like poor readability and language mixing observed in the zero version. DeepSeek-R1 achieves performance comparable to OpenAI's o1-1217 on reasoning tasks. The models and six distilled versions, ranging from 1.5B to 70B parameters, are open-sourced to support the research community.  
   **Tags**: #reinforcement-learning #reasoning #LLMs #AI
