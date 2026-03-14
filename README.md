@@ -365,9 +365,13 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: AdvSecureNet provides a Python toolkit for adversarial attack simulation in PyTorch, designed to test and improve AI robustness.  
   **Tags**: #security #pytorch #AI
 
-- **[Neural Fingerprints for Adversarial Attack Detection](https://arxiv.org/abs/2411.04533v1)**  
-  **Summary**: This paper introduces a method to detect adversarial attacks on AI models by leveraging neural fingerprints. The approach involves creating unique identifiers for neural networks, enabling the identification of unauthorized modifications or attacks.  
+- **[Neural Fingerprints for Adversarial Attack Detection](https://arxiv.org/abs/2411.04533v1)**
+  **Summary**: This paper introduces a method to detect adversarial attacks on AI models by leveraging neural fingerprints. The approach involves creating unique identifiers for neural networks, enabling the identification of unauthorized modifications or attacks.
   **Tags**: #adversarial-attack #detection #neural-fingerprints #AI
+
+- **[Manifold of Failure: Behavioral Attraction Basins in Language Models](https://arxiv.org/abs/2602.22291)**
+  **Summary**: Proposes a framework for systematically mapping the "Manifold of Failure" in LLMs — regions where models exhibit unsafe behavior — using MAP-Elites, a quality diversity algorithm. Rather than finding individual jailbreaks, the approach identifies "behavioral attraction basins" (distinct vulnerability niches) to produce interpretable, global maps of each model's safety landscape. Testing across three models uncovered up to 370 distinct vulnerability niches, offering structural insights that no existing attack method (GCG, PAIR, or TAP) can provide.
+  **Tags**: #LLM-safety #jailbreaking #vulnerability-mapping #quality-diversity #MAP-Elites #red-teaming
 
 - **[Trustworthy Federated Learning: Privacy, Security, and Beyond](https://arxiv.org/abs/2411.01583)**
   **Summary**: This comprehensive survey examines the security and privacy challenges inherent in Federated Learning (FL). It highlights vulnerabilities in communication channels and potential cyber threats within decentralized networks. The authors discuss various defensive strategies to mitigate these risks, explore FL applications across different sectors, and propose future research directions to enhance the security and efficiency of FL systems.
