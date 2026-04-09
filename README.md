@@ -192,6 +192,10 @@
   **Summary**: This paper introduces Cache-Augmented Generation (CAG) as an alternative to Retrieval-Augmented Generation (RAG) for enhancing language models. CAG involves preloading all relevant resources into a language model's extended context, eliminating the need for real-time retrieval during inference.  
   **Tags**: #cache-augmented-generation #language-models #memory-augmentation #AI
 
+- **[TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate](https://arxiv.org/abs/2504.19874)**  
+  **Summary**: TurboQuant proposes data-oblivious vector quantization algorithms that achieve near-optimal distortion rates across all bit-widths and dimensions, within a constant factor (~2.7) of information-theoretic lower bounds. The method randomly rotates input vectors to induce a concentrated Beta distribution on coordinates, then applies scalar quantizers per coordinate. A two-stage variant handles inner-product estimation by pairing an MSE quantizer with a 1-bit transform on residuals, simultaneously optimizing for both MSE and inner-product distortion — a combination existing methods typically can't achieve. Practical results include KV cache quantization with absolute quality neutrality at 3.5 bits per channel, and superior performance over product quantization on nearest-neighbor search.  
+  **Tags**: #quantization #KV-cache #vector-quantization #nearest-neighbor #LLM-inference
+
 ### Long Context Models
 - **[LongWriter](https://arxiv.org/abs/2408.07055v1)**  
   **Summary**: This paper addresses the limitation of current long-context large language models (LLMs) that struggle to generate outputs exceeding 2,000 words. The authors introduce AgentWrite, an agent-based pipeline that decomposes ultra-long generation tasks into subtasks, enabling LLMs to produce coherent outputs exceeding 20,000 words.  
