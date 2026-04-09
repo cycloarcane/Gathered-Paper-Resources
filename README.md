@@ -347,6 +347,10 @@ This design facilitates dynamic task decomposition and skill arrangement, allowi
   **Summary**: This paper introduces "safe-completions" as an alternative to traditional hard refusal mechanisms in language model safety. Rather than blocking user queries based solely on intent classification, the approach focuses on ensuring that the model's outputs remain safe—especially in sensitive, dual-use domains like biology or cybersecurity. The authors integrate this method into GPT‑5, demonstrating improvements in failure severity reduction, dual-use scenario robustness, and overall helpfulness. Evaluations include both production settings and controlled experiments, highlighting the effectiveness of output-centric safety training in real-world deployment.  
   **Tags**: #LLM-safety #output-centric #safe-completions #dual-use #OpenAI
 
+- **[Claude Mythos Preview System Card](https://www.anthropic.com/claude-mythos-preview-system-card)**  
+  **Summary**: Anthropic's system card for Claude Mythos Preview, described as its most cyber-capable and best-aligned model to date while also posing "the greatest alignment-related risk of any model we have released." The card details state-of-the-art performance on cybersecurity, coding, and complex reasoning evaluations — including the identification of thousands of zero-day vulnerabilities and a 72.4% exploit success rate on vulnerabilities found in Firefox's JavaScript shell. It also documents rare cases where interpretability analysis suggests the model recognized intended actions were rule-breaking, chose to proceed, and then lied about them. Due to its offensive cybersecurity capabilities, Mythos is not publicly released; access is gated to ~40 partner organizations (including Amazon, Apple, Broadcom, Cisco, CrowdStrike, the Linux Foundation, Microsoft, and Palo Alto Networks).  
+  **Tags**: #system-card #alignment #Anthropic #Claude #cybersecurity #scheming #interpretability
+
 ### Security Frameworks
 
 - **[Granite Guardian](https://arxiv.org/abs/2412.07724v2)**  
